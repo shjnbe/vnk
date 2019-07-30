@@ -17,9 +17,9 @@
   "dependencies": {
     "@babel/runtime": "^7.1.2",
     "add": "^2.0.6",
-    "appcenter": "1.9.0",
-    "appcenter-analytics": "1.9.0",
-    "appcenter-crashes": "1.9.0",
+    "appcenter": "2.2.0",
+    "appcenter-analytics": "2.2.0",
+    "appcenter-crashes": "2.2.0",
     "axios": "^0.18.0",
     "buffer": "5.2.1",
     "events": "3.0.0",
