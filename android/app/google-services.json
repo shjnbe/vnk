@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "121190559870",
+    "firebase_url": "https://myp-vnk.firebaseio.com",
+    "project_id": "myp-vnk",
+    "storage_bucket": "myp-vnk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121190559870:android:983b7f8bed0bf16e",
+        "android_client_info": {
+          "package_name": "vn.com.vnk.myp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121190559870-hffrce0ag1v0m6ur571v7d2gq5qqlui1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7nNGaxomtTILRGciCJbd3MO8XoXThiF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

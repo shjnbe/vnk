@@ -1,0 +1,47 @@
+export default [
+  {
+    name: 'Du an khu do thi My Dinh',
+    description: 'Chua co mo ta',
+    sort_name: 'Du An KDT',
+    image:
+      'http://cafef.vcmedia.vn/Common/BDS/Images/Uploaded/Share/2010/10/14/visuvillalarge5.jpg',
+    last_modified: '2018-11-05T13:43:24.522Z',
+    code: '73174011',
+    cost: 70.2,
+    status: 'CLOSE',
+    status_code: 0,
+    start: '2018-11-05T13:43:24.522Z',
+    finish: '2018-11-20T13:43:24.522Z',
+    country: 'Viet Nam',
+    city: 'Ha Noi',
+    district: 'Hoan Kiem',
+    address: 'Pham Hung',
+    floor_count: 0,
+    floor_area: 0,
+    total_area: 0,
+    owner_type: 'APARMENTS (1,000) | OFFICETEL',
+    invest_type: 'string'
+  },
+  {
+    name: 'Du an khu TKV',
+    description: 'Chua co mo ta',
+    sort_name: 'Du An KDT',
+    image: 'https://petrotimes.vn/stores/news_dataimages/administrator/122017/25/15/in_article/tkv-xa-hoi-hoa-nhieu-du-an.jpg',
+    last_modified: '2018-11-05T13:43:24.522Z',
+    code: '73174021',
+    cost: 80.2,
+    status: 'Chào giá',
+    status_code: 1,
+    start: '2018-11-05T13:43:24.522Z',
+    finish: '2018-11-20T13:43:24.522Z',
+    country: 'Viet Nam',
+    city: 'Quảng Ninh',
+    district: 'Hạ Long',
+    address: 'Hạ Long',
+    floor_count: 0,
+    floor_area: 0,
+    total_area: 0,
+    owner_type: 'APARMENTS (1,500) | OFFICETEL',
+    invest_type: 'string'
+  }
+]

@@ -1,0 +1,5 @@
+export default {
+  FCM_TOKEN: 'FCM_TOKEN',
+  SHOW_MSG_LOCAL: 'SHOW_MSG_LOCAL',
+  USER_LOCAL: 'USER_LOCAL'
+}
