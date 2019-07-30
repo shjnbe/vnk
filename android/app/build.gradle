@@ -110,6 +110,15 @@ android {
         }
     }
 
+    signingConfigs {
+        release {
+            storeFile file('android.jks')
+            storePassword ""
+            keyAlias ""
+            keyPassword ""
+        }
+    }
+
     splits {
         abi {
             reset()
