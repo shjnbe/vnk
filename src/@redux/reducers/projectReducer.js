@@ -6,7 +6,7 @@ import {
   RECEIVED_FOLLOW_PROJECTS,
   SELECT_PROJECT,
   CLEAN_DATA_CACHE
-} from '@redux/actions/projectAction'
+} from '../../@redux/actions/projectAction'
 
 
 const stateDefault = {

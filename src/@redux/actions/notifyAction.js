@@ -1,6 +1,6 @@
-import notifyApi from 'api/notifyApi'
+import notifyApi from '../../api/notifyApi'
 import * as _ from 'lodash'
-import { notifyWelcome } from 'constants/notify-data'
+import { notifyWelcome } from '../../constants/notify-data'
 import FCM from 'react-native-fcm'
 
 export const RECEIVED_NOTIFY_INFO = 'notify/received-list'

@@ -1,4 +1,4 @@
-import { getFetch, postFetch, putFetch, uploadFileCrop } from 'utils/fetch'
+import { getFetch, postFetch, putFetch, uploadFileCrop } from '../utils/fetch'
 import { has } from 'lodash'
 import moment from 'moment'
 

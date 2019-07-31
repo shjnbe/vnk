@@ -6,7 +6,7 @@ import {
   RECEIVED_FCM_TOKEN,
   USER_LOGOUT,
   RECEIVED_USER_INCLUDE
-} from '@redux/actions/authAction'
+} from '../../@redux/actions/authAction'
 
 const stateDefault = {
   user: { email: '' },

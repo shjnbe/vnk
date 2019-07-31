@@ -5,7 +5,7 @@ import {
   FETCH_ALL_COMPANY,
   FETCH_USER_COMPANY,
   SELECTED_COMPANY
- } from '@redux/actions/companyAction'
+ } from '../../@redux/actions/companyAction'
  import { concat, size, filter, get } from 'lodash'
 
 const stateDefault = {

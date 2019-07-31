@@ -1,5 +1,5 @@
 import { get } from 'lodash'
-import companyApi from 'api/companyApi'
+import companyApi from '../../api/companyApi'
 
 export const FETCH_ALL_COMPANY = 'company/fetch-all'
 export const FETCH_USER_COMPANY = 'company/fetch-company-follow-by-user'

@@ -1,5 +1,5 @@
 import * as _ from 'lodash'
-import projectApi from 'api/projectApi'
+import projectApi from '../../api/projectApi'
 
 export const RECEIVED_PROJECT_FETCH_LOADING = 'project/fetch-loading'
 export const RECEIVED_PROJECT_FETCH_SUCCESS = 'project/fetch-success'

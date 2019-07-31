@@ -1,5 +1,5 @@
 import { Platform } from 'react-native'
-import { getFetch, postFetch, putFetch, deleteFetch } from 'utils/fetch'
+import { getFetch, postFetch, putFetch, deleteFetch } from '../utils/fetch'
 import { has, isArray } from 'lodash'
 import moment from 'moment'
 

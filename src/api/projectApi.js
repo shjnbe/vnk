@@ -1,4 +1,4 @@
-import { getFetch, postFetch, putFetch, deleteFetch, uploadFileCrop, API } from 'utils/fetch'
+import { getFetch, postFetch, putFetch, deleteFetch, uploadFileCrop, API } from '../utils/fetch'
 
 export default {
   

@@ -1,4 +1,4 @@
-import { getFetch, postFetch, putFetch, uploadFileCrop, postFetchRegister, API, postLogin } from 'utils/fetch'
+import { getFetch, postFetch, putFetch, uploadFileCrop, postFetchRegister, API, postLogin } from '../utils/fetch'
 import { has } from 'lodash'
 import moment from 'moment'
 export default {
