@@ -7,7 +7,7 @@ import { get, concat, isEqual, filter, clone, includes, lowerCase } from 'lodash
 import Row from './row-item'
 import RowAdd from './row-add'
 import connectAutoDispatch from '../../../@redux/connect';
-import { onCompanySelected } from '@redux/actions/companyAction'
+import { onCompanySelected } from '../../../@redux/actions/companyAction'
 
 class CompanyFollow extends React.PureComponent {
   

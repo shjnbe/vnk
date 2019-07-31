@@ -7,7 +7,7 @@ import styles from './styles'
 import KpiChart from './kpi-chart'
 import KpiChartCost from './kpi-chart-cost'
 import * as _ from 'lodash'
-import projectApi from 'api/projectApi'
+import projectApi from '../../../api/projectApi'
 
 const ChartTitle = styled.Text`
   fontSize: 14

@@ -1,7 +1,7 @@
 import React from 'react'
 import { processColor } from 'react-native'
 import { BarChart } from 'react-native-charts-wrapper'
-import projectApi from 'api/projectApi'
+import projectApi from '../../../api/projectApi'
 import * as _ from 'lodash'
 import DATA from 'containers/projects/data-task'
 

@@ -6,7 +6,7 @@ import { FlatList } from 'react-native'
 import { Container, Content, Icon, Item, View, Card, Toast } from 'native-base'
 import Input from 'components/base/Input'
 import CompanyRow from './row'
-import companyApi from 'api/companyApi'
+import companyApi from '../../api/companyApi'
 import * as _ from 'lodash'
 import ModalDialog from 'components/elements/modal-dialog'
 import { CachedImage } from 'react-native-cached-image'
@@ -16,7 +16,7 @@ import {
   unFollowCompany,
   getCompanies,
   onCompanySelected
-} from '@redux/actions/companyAction'
+} from '../../@redux/actions/companyAction'
 import { toVietnamese } from 'utils/extentions'
 
 const TextBase = styled.Text`

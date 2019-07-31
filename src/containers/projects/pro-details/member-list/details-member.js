@@ -7,7 +7,7 @@ import dataMember from './data-key'
 import MemberInput from './member-input'
 import colors from '../../../themes/colors'
 import * as _ from 'lodash'
-import projectApi from 'api/projectApi'
+import projectApi from '../../../../api/projectApi'
 import { updateFollowProject } from '@redux/actions/projectAction'
 import connectAutoDispatch from '../../../../@redux/connect';
 

@@ -8,7 +8,7 @@ import CompanyDetail from "./detail"
 import AddCompanyContainer from "./add-company"
 import EditCompanyContainer from "./edit-company"
 import ContactContainer from './contact-new'
-import { companySelected } from '@redux/actions/companyAction'
+import { companySelected } from '../../@redux/actions/companyAction'
 
 export default createStackNavigator(
   {

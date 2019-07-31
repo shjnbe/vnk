@@ -14,14 +14,14 @@ import {
 import styled from 'styled-components/native'
 import mypStyles from '../../themes/myp-styles'
 import colors from '../../themes/colors'
-import companyApi from 'api/companyApi'
+import companyApi from '../../api/companyApi'
 import * as _ from 'lodash'
 import ImageCropPicker from 'react-native-image-crop-picker'
 import PickerSearchUser from './picker-search-user';
-import projectApi from 'api/projectApi';
+import projectApi from '../../api/projectApi';
 import authApi from '../../api/authApi';
 import connectAutoDispatch from '../../@redux/connect';
-import { getCompanies } from '@redux/actions/companyAction'
+import { getCompanies } from '../../@redux/actions/companyAction'
 import moment from 'moment'
 
 const UserView = styled.View`

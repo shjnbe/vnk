@@ -20,7 +20,7 @@ import MypPicker from 'components/elements/myp-picker'
 import dataTask from '../../data-task' 
 import { CachedImage } from 'react-native-cached-image'
 import ImageCropPicker from 'react-native-image-crop-picker'
-import projectApi from 'api/projectApi'
+import projectApi from '../../../../api/projectApi'
 
 const Title = styled.Text`
   fontFamily: Helvetica
