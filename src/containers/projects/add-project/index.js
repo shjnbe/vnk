@@ -17,7 +17,7 @@ import BackButton from 'components/elements/back-button'
 import NoteContainer from '../pro-details/note'
 import moment from 'moment'
 import connectAutoDispatch from '../../../@redux/connect';
-import { postFollowProject } from '@redux/actions/projectAction'
+import { postFollowProject } from '../../../@redux/actions/projectAction'
 import dataTask from '../data-task'
 import CircleButton from 'components/elements/circle-button'
 import AddContainer from './add-container';

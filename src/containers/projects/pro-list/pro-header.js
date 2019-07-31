@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/native'
 import colors from '../../../themes/colors'
-import Touchable from 'components/base/Touchable'
+import Touchable from '../../../components/base/Touchable'
 import { Icon, Card } from 'native-base'
 import moment from 'moment'
 import FollowView from 'components/elements/follow'

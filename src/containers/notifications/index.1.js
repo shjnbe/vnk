@@ -11,7 +11,7 @@ import moment from 'moment'
 import CACHE from '../../utils/cache'
 import connectAutoDispatch from '../../@redux/connect';
 import * as _ from 'lodash'
-import { getProjectById } from '@redux/actions/projectAction'
+import { getProjectById } from '../../@redux/actions/projectAction'
 
 const SHOW_MSG_LOCAL = 'SHOW_MSG_LOCAL'
 

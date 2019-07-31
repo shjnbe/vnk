@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Text, Icon } from 'native-base'
-import Touchable from 'components/base/Touchable';
+import Touchable from '../../../components/base/Touchable';
 
 export default class RowItem extends React.Component {
   shouldComponentUpdate (nextProps) {

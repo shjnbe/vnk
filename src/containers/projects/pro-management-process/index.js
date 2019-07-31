@@ -18,7 +18,7 @@ import { withNavigation } from 'react-navigation'
 import LinearGradient from 'react-native-linear-gradient'
 import ModalDialog from 'components/elements/modal-dialog'
 import connectAutoDispatch from '../../../@redux/connect';
-import { updateFollowProject } from '@redux/actions/projectAction'
+import { updateFollowProject } from '../../../../@redux/actions/projectAction'
 import { get, omit, slice, size, map, isNumber } from 'lodash'
 import moment from 'moment'
 import dataTask from '../data-task'

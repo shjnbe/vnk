@@ -7,7 +7,7 @@ import moment from 'moment'
 import styled from 'styled-components/native'
 import colors from '../../../themes/colors'
 import * as _ from 'lodash'
-import { updateFollowProject } from '@redux/actions/projectAction'
+import { updateFollowProject } from '../../../../@redux/actions/projectAction'
 import connectAutoDispatch from '../../../@redux/connect';
 import NoteRow from './note-row'
 import NoteInput from './note-input'

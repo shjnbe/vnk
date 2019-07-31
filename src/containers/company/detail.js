@@ -8,7 +8,7 @@ import { CachedImage } from 'react-native-cached-image'
 import PickerDetailUser from './picker-detail-user';
 import connectAutoDispatch from '../../@redux/connect';
 import { onCompanySelected, onChangeImage } from '../../@redux/actions/companyAction'
-import { getProjectId } from '@redux/actions/projectAction'
+import { getProjectId } from '../../@redux/actions/projectAction'
 import ImageCropPicker from 'react-native-image-crop-picker'
 import CompanyLinkProject from './company-link-project'
 

@@ -4,7 +4,7 @@ import { Container, Content, Icon, Label, List, Fab, Toast } from 'native-base'
 import MemberRow from './member-row'
 
 import colors from '../../../themes/colors'
-import { updateFollowProject } from '@redux/actions/projectAction'
+import { updateFollowProject } from '../../../../@redux/actions/projectAction'
 import connectAutoDispatch from '../../../@redux/connect';
 import * as _ from 'lodash'
 

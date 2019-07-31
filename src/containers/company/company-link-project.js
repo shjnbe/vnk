@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components/native'
 import { Row, View, ListItem, Text, Body } from 'native-base'
 import companyApi from '../../api/companyApi';
-import Touchable from 'components/base/Touchable';
+import Touchable from '../../components/base/Touchable';
 import * as _ from 'lodash'
 
 const TextBase = styled.Text`

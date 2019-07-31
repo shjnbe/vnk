@@ -8,7 +8,7 @@ import CircleButton from 'components/elements/circle-button'
 import moment from 'moment'
 import { CachedImage } from 'react-native-cached-image'
 import dataTask from '../../projects/data-task'
-import Touchable from 'components/base/Touchable';
+import Touchable from '../../../components/base/Touchable';
 
 const LocationView = styled.View`
   flexDirection: row

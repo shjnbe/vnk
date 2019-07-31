@@ -5,7 +5,7 @@ import { Dimensions } from 'react-native'
 import HeaderItemView from './header-item'
 import { Container, Title, Icon, Button } from 'native-base'
 import connectAutoDispatch from '../../../@redux/connect';
-import { cleanDataCacheProject } from '@redux/actions/projectAction'
+import { cleanDataCacheProject } from '../../../@redux/actions/projectAction'
 
 const ImageBgView = styled.Image.attrs({
   source: require('../../../images/home/ic-eagle.png'),

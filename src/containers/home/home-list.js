@@ -9,7 +9,7 @@ import ProjectFollow from './project-follow'
 import CompanyFollow from './company-follow'
 import connectAutoDispatch from '../../@redux/connect';
 import { getCompanies } from '../../@redux/actions/companyAction'
-import { getFollowProjects, selectedProject } from '@redux/actions/projectAction'
+import { getFollowProjects, selectedProject } from '../../@redux/actions/projectAction'
 import HomeNoData from './home-no-data'
 
 class HomeContainer extends React.Component {
