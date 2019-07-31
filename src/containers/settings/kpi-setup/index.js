@@ -13,7 +13,7 @@ import settingApi from 'api/settingApi';
 import DropdowButton from './dropdow-button';
 import MypPicker from 'components/elements/myp-picker'
 import saleTypes, { POSITION } from 'constants/position-sale'
-import authApi from 'api/authApi';
+import authApi from '../../../api/authApi';
 
 const styleShadowInput = {
   shadowColor: 'rgba(33, 150, 243, 0.56)',

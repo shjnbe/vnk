@@ -10,7 +10,7 @@ import ProfileInput from './profile-input'
 import colors from '../../../themes/colors'
 import connectAutoDispatch from '../../../@redux/connect'
 import { get, isEmpty, has } from 'lodash'
-import authApi from 'api/authApi';
+import authApi from '../../../api/authApi';
 import { updateMyProfile } from '../../../@redux/actions/authAction'
 import NoteList from './note-list';
 import { POSITION } from 'constants/position-sale';

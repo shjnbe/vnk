@@ -8,7 +8,7 @@ import PickerMonth from 'containers/projects/picker-month';
 import moment from 'moment'
 import * as _ from 'lodash'
 import connectAutoDispatch from '../../../@redux/connect';
-import authApi from 'api/authApi';
+import authApi from '../../../api/authApi';
 import { SALES, POSITION } from 'constants/position-sale';
 import taskApi from 'api/taskApi';
 import notifyApi from 'api/notifyApi'

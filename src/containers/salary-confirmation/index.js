@@ -5,7 +5,7 @@ import NavHeader from 'components/elements/nav-header'
 import PickerMonth from './search-salary';
 import moment from 'moment'
 import salaryApi from 'api/salaryApi'
-import authApi from 'api/authApi'
+import authApi from '../../api/authApi'
 import RowSalary from './row-salary';
 import * as _ from 'lodash'
 import { NavigationEvents } from 'react-navigation'

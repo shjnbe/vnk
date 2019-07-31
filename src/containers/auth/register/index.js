@@ -8,7 +8,7 @@ import CACHE from '../../../utils/cache'
 import { Container, Content, Button, Text, Footer, Toast } from 'native-base'
 
 import InputLogin from 'components/elements/input-login'
-import authApi from 'api/authApi'
+import authApi from '../../../api/authApi'
 
 const ImageView = styled.Image.attrs({
   source: require('images/logo.png'),
