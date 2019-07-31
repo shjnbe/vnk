@@ -1,7 +1,7 @@
 import { AsyncStorage } from 'react-native'
 import { get, isArray } from 'lodash'
 import authApi from '../../api/authApi'
-import { setCache, getCache } from 'utils/cache'
+import { setCache, getCache } from '../../utils/cache'
 import CACHE from '../../utils/cache'
 import KEY from '../../constants/cache-key'
 import * as _ from 'lodash'
