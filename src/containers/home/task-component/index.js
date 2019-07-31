@@ -5,7 +5,7 @@ import colors from '../../../themes/colors'
 import moment from 'moment'
 import styled from 'styled-components/native'
 import * as _ from 'lodash'
-import connectAutoDispatch from '@redux/connect'
+import connectAutoDispatch from '../../../@redux/connect'
 import InputTextbox from './input-textbox'
 import { updateMyProfile } from '@redux/actions/authAction'
 import Modal from 'react-native-modalbox';

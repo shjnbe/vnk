@@ -7,7 +7,7 @@ import SubHeaderView from '../sub-header-view'
 import KpiSetupItem from './kpi-setup-item'
 import Divider from 'components/elements/divider'
 import colors from '../../../themes/colors'
-import connectAutoDispatch from '@redux/connect'
+import connectAutoDispatch from '../../../@redux/connect'
 import { configKpiMonth } from '@redux/actions/settingAction'
 import settingApi from 'api/settingApi';
 import DropdowButton from './dropdow-button';

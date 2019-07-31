@@ -7,7 +7,7 @@ import TimeStatusItem from './time-status-item'
 import rows, { STATUS_DATA_DEFAULT } from './data-status'
 import * as _ from 'lodash'
 import settingApi from 'api/settingApi';
-import connectAutoDispatch from '@redux/connect';
+import connectAutoDispatch from '../../../@redux/connect';
 
 const Title = styled.Text`
   paddingLeft: 16

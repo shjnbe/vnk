@@ -8,7 +8,7 @@ import rows from './data-kpi-person'
 import KpiPersonItem from './kpi-person-item'
 import styles from './styles'
 import ResultKpi from './result-kpi'
-import connectAutoDispatch from '@redux/connect'
+import connectAutoDispatch from '../../../@redux/connect'
 import * as _ from 'lodash'
 import settingApi from 'api/settingApi';
 import moment from 'moment'

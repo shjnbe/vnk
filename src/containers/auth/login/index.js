@@ -20,7 +20,7 @@ import {
 } from 'native-base'
 
 import InputLogin from 'components/elements/input-login'
-import connectAutoDispatch from '@redux/connect'
+import connectAutoDispatch from '../../../@redux/connect'
 import moment from 'moment'
 import FCM from 'react-native-fcm'
 import * as _ from 'lodash'

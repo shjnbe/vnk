@@ -6,7 +6,7 @@ import { get, concat, isEqual, filter, clone, includes, lowerCase } from 'lodash
 
 import RowItem from './row-item'
 import RowAdd from './row-add'
-import connectAutoDispatch from '@redux/connect';
+import connectAutoDispatch from '../../../@redux/connect';
 
 class ProjectFollow extends React.Component {
   

@@ -9,7 +9,7 @@ import scores from 'constants/score-kpi'
 import KpiPersonItem from './kpi-person-item'
 import styles from './styles'
 import ResultKpi from './result-kpi'
-import connectAutoDispatch from '@redux/connect'
+import connectAutoDispatch from '../../../@redux/connect'
 import { get, isEmpty } from 'lodash'
 import settingApi from 'api/settingApi';
 

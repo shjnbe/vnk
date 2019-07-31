@@ -9,7 +9,7 @@ import {
   Thumbnail,
   Toast
 } from 'native-base'
-import connectAutoDispatch from '@redux/connect'
+import connectAutoDispatch from '../../../@redux/connect'
 import { onNavigate } from '@redux/actions/app'
 import moment from 'moment'
 import dataKeys from './data-keys'

@@ -8,7 +8,7 @@ import ProfileItem from './profile-item'
 import itemProfiles from './data-profile'
 import ProfileInput from './profile-input'
 import colors from '../../../themes/colors'
-import connectAutoDispatch from '@redux/connect'
+import connectAutoDispatch from '../../../@redux/connect'
 import { get, isEmpty, has } from 'lodash'
 import authApi from 'api/authApi';
 import { updateMyProfile } from '@redux/actions/authAction'

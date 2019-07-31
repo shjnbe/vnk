@@ -6,7 +6,7 @@ import colors from '../../../themes/colors'
 import Divider from 'components/elements/divider'
 import ServiceSettingItem from './service-setting-item'
 import settingApi from 'api/settingApi';
-import connectAutoDispatch from '@redux/connect';
+import connectAutoDispatch from '../../../@redux/connect';
 import * as _ from 'lodash'
 import orders from './data-orders'
 import ModalDialog from 'components/elements/modal-dialog';

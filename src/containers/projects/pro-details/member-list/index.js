@@ -5,7 +5,7 @@ import MemberRow from './member-row'
 
 import colors from '../../../themes/colors'
 import { updateFollowProject } from '@redux/actions/projectAction'
-import connectAutoDispatch from '@redux/connect';
+import connectAutoDispatch from '../../../@redux/connect';
 import * as _ from 'lodash'
 
 const CommentView = styled.View`

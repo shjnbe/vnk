@@ -4,7 +4,7 @@ import colors from '../../../themes/colors'
 import { Dimensions, ImageBackground } from 'react-native'
 import HeaderItemView from './header-item'
 import { Container, Title, Icon, Button, Toast } from 'native-base'
-import connectAutoDispatch from '@redux/connect';
+import connectAutoDispatch from '../../../@redux/connect';
 import { cleanDataCacheProject } from '@redux/actions/projectAction'
 import * as _ from 'lodash'
 

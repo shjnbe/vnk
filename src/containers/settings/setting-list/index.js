@@ -7,7 +7,7 @@ import Divider from 'components/elements/divider'
 import ItemSetting from './item-setting'
 import dataSetting from './data-setting'
 import { SettingGeneralView } from '../header-setting-view'
-import connectAutoDispatch from '@redux/connect';
+import connectAutoDispatch from '../../../@redux/connect';
 import * as _ from 'lodash'
 import { POSITION } from 'constants/position-sale';
 import { logout } from '@redux/actions/authAction'
