@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/native'
-import colors from 'themes/colors'
+import colors from '../../../themes/colors'
 import Touchable from 'components/base/Touchable'
 import { Icon, View, Card, Thumbnail } from 'native-base'
 import moment from 'moment'

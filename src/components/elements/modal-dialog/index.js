@@ -1,7 +1,7 @@
 import React from 'react'
 import Modal from 'react-native-modalbox'
 import styled from 'styled-components/native'
-import colors from 'themes/colors'
+import colors from '../../../themes/colors'
 
 const Footer = styled.View`
   flexDirection: row

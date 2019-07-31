@@ -4,7 +4,7 @@ import { Header, Body, Title, Icon, Text, View } from 'native-base'
 import { StyleSheet } from 'react-native'
 // import { withNavigation } from 'react-navigation'
 import styled from 'styled-components/native'
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 
 const SettingGeneral = styled.View`
   height: 40

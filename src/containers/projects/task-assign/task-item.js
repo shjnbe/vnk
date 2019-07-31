@@ -2,7 +2,7 @@ import React from 'react'
 import { SwipeRow, Text, Body, Icon, Button, Right } from 'native-base'
 import moment from 'moment'
 import styled from 'styled-components/native'
-import colors from 'themes/colors';
+import colors from '../../../themes/colors';
 
 const ListItem = styled.View`
   borderRadius: 3

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/native'
-import colors from 'themes/colors'
+import colors from '../../../themes/colors'
 import styles from './styles'
 import { login, saveUserInfoLocal } from '@redux/actions/authAction'
 import { getNotifications } from '@redux/actions/notifyAction'

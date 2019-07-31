@@ -1,7 +1,7 @@
 import React from 'react'
 import Modal from 'react-native-modalbox'
 import styled from 'styled-components/native'
-import colors from 'themes/colors'
+import colors from '../../../themes/colors'
 import { Container, Accordion, View, Content, ListItem, Left, Text, Right, Icon } from 'native-base';
 import IntroContainer from './introduction';
 import Help from './help-new'

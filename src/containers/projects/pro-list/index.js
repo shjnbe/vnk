@@ -1,6 +1,6 @@
 import React from 'react'
 import { Platform, StatusBar, FlatList } from 'react-native'
-import colors from 'themes/colors'
+import colors from '../../../themes/colors'
 import * as _ from 'lodash'
 import {
   Container,

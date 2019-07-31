@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Icon, Text, ListItem, Left, Body, Toast } from 'native-base'
-import colors from 'themes/colors'
+import colors from '../../../themes/colors'
 import styled from 'styled-components/native'
 import Swipeout from 'react-native-swipeout'
 import { CachedImage } from 'react-native-cached-image'

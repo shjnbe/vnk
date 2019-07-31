@@ -2,7 +2,7 @@ import React from 'react'
 import { FlatList } from 'react-native'
 import { Container, Content, Fab, Icon, Footer, Button, Text, Header, Body, Left, Row, Toast, Label } from 'native-base';
 import styled from 'styled-components/native'
-import colors from 'themes/colors';
+import colors from '../../../themes/colors';
 import mypStyles from 'themes/myp-styles';
 import PickerMonth from '../picker-month';
 import moment from 'moment'

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/native'
-import colors from 'themes/colors'
+import colors from '../../../themes/colors'
 
 import { Card, CardItem, Thumbnail, Icon } from 'native-base'
 

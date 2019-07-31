@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/native'
-import colors from 'themes/colors'
+import colors from '../../../themes/colors'
 import { Card, H3 } from 'native-base';
 import { Table, TableWrapper, Row, Rows, Col } from 'react-native-table-component';
 import { TableRow, RowHeader } from './component-help';

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, View, Icon } from 'native-base'
 import styled from 'styled-components/native'
-import colors from 'themes/colors';
+import colors from '../../../themes/colors';
 import { CachedImage } from 'react-native-cached-image'
 import { Touchable } from 'components/base';
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/native'
-import colors from 'themes/colors'
+import colors from '../../../themes/colors'
 import { Dimensions } from 'react-native'
 import HeaderItemView from './header-item'
 import { Container, Title, Icon, Button } from 'native-base'

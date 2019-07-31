@@ -1,7 +1,7 @@
 import React from 'react'
 import { Dimensions } from 'react-native'
 import { SafeAreaView } from 'react-navigation';
-import colors from 'themes/colors'
+import colors from '../../../themes/colors'
 import * as _ from 'lodash'
 import styled from 'styled-components/native'
 import {

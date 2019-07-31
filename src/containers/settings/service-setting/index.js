@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Content, Icon, Toast } from 'native-base'
 import SubHeaderView from '../sub-header-view'
 import styled from 'styled-components/native'
-import colors from 'themes/colors'
+import colors from '../../../themes/colors'
 import Divider from 'components/elements/divider'
 import ServiceSettingItem from './service-setting-item'
 import settingApi from 'api/settingApi';

@@ -2,7 +2,7 @@
 import React from 'react'
 import styled from 'styled-components/native'
 import { Icon } from 'native-base';
-import colors from 'themes/colors';
+import colors from '../../../themes/colors';
 
 const Touchable = styled.TouchableOpacity.attrs({
   activeOpacity: 0.8

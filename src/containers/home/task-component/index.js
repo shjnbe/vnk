@@ -1,7 +1,7 @@
 import React from 'react'
 import { Dimensions, FlatList } from 'react-native'
 import { Container, Content, Icon, Fab, Toast, View, Textarea, Header, Text, Card, CardItem, Button, DatePicker } from 'native-base'
-import colors from 'themes/colors'
+import colors from '../../../themes/colors'
 import moment from 'moment'
 import styled from 'styled-components/native'
 import * as _ from 'lodash'

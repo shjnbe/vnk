@@ -1,7 +1,7 @@
 import React from 'react'
 import * as _ from 'lodash'
 import styled from 'styled-components/native'
-import colors from 'themes/colors'
+import colors from '../../../themes/colors'
 import {
   View,
   Card,

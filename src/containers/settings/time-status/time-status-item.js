@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/native'
 import { Icon, Button, Input, Item } from 'native-base'
-import colors from 'themes/colors';
+import colors from '../../../themes/colors';
 
 const Wrapper = styled.View`
   paddingTop: 8
