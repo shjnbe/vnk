@@ -12,7 +12,7 @@ const Wrapper = styled.View`
 
 const Image = styled.Image.attrs({
   resizeMode: 'contain',
-  source: require('images/logo.png')
+  source: require('../../../images/logo.png')
 })`
   width: 60
   height: 60

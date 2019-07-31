@@ -11,7 +11,7 @@ import InputLogin from 'components/elements/input-login'
 import authApi from '../../../api/authApi'
 
 const ImageView = styled.Image.attrs({
-  source: require('images/logo.png'),
+  source: require('../../../images/logo.png'),
   resizeMode: 'contain' //
 })`
   marginTop: 60

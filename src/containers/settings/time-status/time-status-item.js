@@ -14,7 +14,7 @@ const Wrapper = styled.View`
 
 const Image = styled.Image.attrs({
   resizeMode: 'contain',
-  source: require('images/settings/s-calendar.png')
+  source: require('../../../images/settings/s-calendar.png')
 })`
   width: 29
   height: 25

@@ -44,7 +44,7 @@ const TextInfo = styled.Text`
 
 const CalendarIcon = styled.Image.attrs({
   resizeMode: 'contain',
-  source: require('images/globe/calendar.png')
+  source: require('../../../images/globe/calendar.png')
 })`
   width: 40
   height: 40
@@ -155,7 +155,7 @@ class MyProfileContainer extends React.Component {
       <Container>
         <UserInfo style={{}}>
           <Touchable onPress={this.uploadAvatar} >
-            <Thumbnail circular large source={ isEmpty(avatar) ? require('images/globe/noavatar.png') : { uri: avatar }} />
+            <Thumbnail circular large source={ isEmpty(avatar) ? require('../../../images/globe/noavatar.png') : { uri: avatar }} />
           </Touchable>
           <InfoRight>
             <TextInfo fontSize={13} fontWeight='bold'>

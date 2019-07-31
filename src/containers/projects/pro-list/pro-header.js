@@ -74,7 +74,7 @@ export default class ProHeader extends React.Component {
             source={
               this.props.image
                 ? { uri: this.props.image }
-                : require('images/logo.png')
+                : require('../../../images/logo.png')
             }
           />
           <ArTitle>{this.props.name}</ArTitle>

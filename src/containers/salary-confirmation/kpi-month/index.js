@@ -101,7 +101,7 @@ class KPIMonthContainer extends React.Component {
         />
         <SubHeaderView
           title={`KPIs: Lương ngày tháng ${monthTitle}`}
-          source={require('images/settings/business-icon.png')}
+          source={require('../../../images/settings/business-icon.png')}
         />
         <Content>
           <UserInfo {...this.state.user} monthTitle={monthTitle} />

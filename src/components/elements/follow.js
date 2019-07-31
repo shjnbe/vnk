@@ -26,7 +26,7 @@ const TouchableOut = styled.TouchableWithoutFeedback.attrs({
 export default ({ isFollow, color, style, onFollowChange }) => (
   <TouchableOut onPress={onFollowChange}>
     <View style={[{ justifyContent: 'center', alignItems: 'center' }, style]}>
-      <ImageFollow source={isFollow ? require('images/company/follow.png') : require('images/company/unfollow.png')} />
+      <ImageFollow source={isFollow ? require('../../images/company/follow.png') : require('../../images/company/unfollow.png')} />
       <TextFollow color={color}>{isFollow ? 'Bỏ TD' : 'Theo dõi'}</TextFollow>
     </View>
   </TouchableOut>

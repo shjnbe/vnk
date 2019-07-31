@@ -57,7 +57,7 @@ class SettingListContainer extends React.Component {
           <ItemSetting
             title='Đăng xuất'
             color={colors.dodgerBlue}
-            source={require('images/settings/logout.png')}
+            source={require('../../../images/settings/logout.png')}
             onPress={() => this.props.logout(this.props.user)}
           />
         </Content>

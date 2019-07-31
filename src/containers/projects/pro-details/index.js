@@ -92,31 +92,31 @@ class ProDetails extends React.Component {
       {
         key: 'general',
         title: 'Tổng quan',
-        icon: require('images/projects/ic_general.png'),
+        icon: require('../../../images/projects/ic_general.png'),
         isTab: true
       },
       {
         key: 'contact',
         title: 'Người liên hệ',
-        icon: require('images/projects/ic_contact.png'),
+        icon: require('../../../images/projects/ic_contact.png'),
         navigateKey: 'memberList'
       },
       {
         key: 'note',
         title: 'Ghi chú',
-        icon: require('images/projects/ic_note.png'),
+        icon: require('../../../images/projects/ic_note.png'),
         isTab: true
       },
       {
         key: 'follow',
         title: 'Theo dõi',
-        icon: isFollow ? require('images/company/follow.png') : require('images/company/unfollow.png'),
+        icon: isFollow ? require('../../../images/company/follow.png') : require('../../../images/company/unfollow.png'),
         navigateKey: 'modal_check'
       },
       {
         key: 'addStack',
         title: 'Giao việc',
-        icon: _.get(this.props.user, 'packageOrder') === 'enterprise' ? require('images/projects/ic_add_stack.png') : require('images/projects/ic_add_task_disable.png'),
+        icon: _.get(this.props.user, 'packageOrder') === 'enterprise' ? require('../../../images/projects/ic_add_stack.png') : require('../../../images/projects/ic_add_task_disable.png'),
         navigateKey: 'taskAssign'
       }
     ]

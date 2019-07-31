@@ -52,7 +52,7 @@ export default props => {
         source={
           props.avatar
             ? { uri: props.avatar }
-            : require('images/globe/noavatar.png')
+            : require('../../../images/globe/noavatar.png')
         }
       />
       <Right>

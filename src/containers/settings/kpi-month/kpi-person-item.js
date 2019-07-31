@@ -14,7 +14,7 @@ const PointView = styled.View`
 
 const Image = styled.Image.attrs({
   resizeMode: 'contain',
-  source: require('images/settings/salary-kpi.png')
+  source: require('../../../images/settings/salary-kpi.png')
 })`
   width: 33
   height: 33

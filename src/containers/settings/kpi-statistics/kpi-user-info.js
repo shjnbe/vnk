@@ -45,7 +45,7 @@ export default props => {
         large
         circular
         source={
-          props.avatar ? { uri: props.avatar } : require('images/globe/noavatar.png')
+          props.avatar ? { uri: props.avatar } : require('../../../images/globe/noavatar.png')
         }
       />
       <Right>

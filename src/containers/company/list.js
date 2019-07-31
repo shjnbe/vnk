@@ -85,8 +85,8 @@ const TouchableWithout = styled.TouchableWithoutFeedback``
 const FollowView = ({ isFollow, color, style, onPress }) => (
   <TouchableWithout onPress={onPress}>
     <View style={[{ justifyContent: 'center', alignItems: 'center' }, style]}>
-      <ImageFollow source={isFollow ? require('images/company/follow.png')
-                : require('images/company/unfollow.png')} />
+      <ImageFollow source={isFollow ? require('../../images/company/follow.png')
+                : require('../../images/company/unfollow.png')} />
       <TextFollow color={color}>{isFollow ? 'Bỏ TD' : `Theo dõi`}</TextFollow>
     </View>
   </TouchableWithout>
@@ -110,7 +110,7 @@ class CardLg extends React.Component {
             source={
               this.props.image
                 ? { uri: this.props.image }
-                : require('images/globe/noimage.png')
+                : require('../../images/globe/noimage.png')
             }
           />
           <ArTitle>{this.props.name}</ArTitle>
@@ -225,8 +225,8 @@ class CompanyContainer extends React.Component {
       onFollow={this.handleFollow}
       src={
         inx % 2 === 0
-          ? require('images/company/isoftglobel.png')
-          : require('images/company/vinhomes.png')
+          ? require('../../images/company/isoftglobel.png')
+          : require('../../images/company/vinhomes.png')
       }
     />)
   }

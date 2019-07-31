@@ -8,7 +8,7 @@ import connectAutoDispatch from '../../../@redux/connect';
 import { cleanDataCacheProject } from '@redux/actions/projectAction'
 
 const ImageBgView = styled.Image.attrs({
-  source: require('images/home/ic-eagle.png'),
+  source: require('../../../images/home/ic-eagle.png'),
   resizeMode: 'stretch'
 })`
 position: absolute
@@ -31,7 +31,7 @@ backgroundColor: ${colors.rouge}
 `
 
 const ImageDesc = styled.Image.attrs({
-  source: require('images/home/home-check.png')
+  source: require('../../../images/home/home-check.png')
 })`
   width: 41
   height: 41
@@ -40,7 +40,7 @@ const ImageDesc = styled.Image.attrs({
 `
 
 const IconHandle = styled.Image.attrs({
-  source: require('images/globe/ic-handle.png')
+  source: require('../../../images/globe/ic-handle.png')
 })`
   width: 30
   height: 36

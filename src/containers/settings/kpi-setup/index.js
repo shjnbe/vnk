@@ -176,7 +176,7 @@ class KPISetupContainer extends React.Component {
       <Container>
         <SubHeaderView
           title='Thiết lập KPIs: Lương hàng ngày cho NV:'
-          source={require('images/settings/business-icon.png')}
+          source={require('../../../images/settings/business-icon.png')}
         />
         <Content style={{ padding: 16 }}>
           <SubTitle>THIẾT LẬP LƯƠNG KPIs:</SubTitle>
@@ -184,7 +184,7 @@ class KPISetupContainer extends React.Component {
             title='1. Lương KPIs'
             subTitle='Đồng/1 NGÀY'
             value={`${get(this.state, 'kpiConfig.salary', 0)}`}
-            source={require('images/settings/salary-kpi.png')}
+            source={require('../../../images/settings/salary-kpi.png')}
             code='salary'
             onChangeText={this.onChangeText}
           />
@@ -193,7 +193,7 @@ class KPISetupContainer extends React.Component {
             title='2. Điểm'
             subTitle='Điểm/1 NGÀY'
             value={`${get(this.state, 'kpiConfig.daily_score', 0)}`}
-            source={require('images/settings/point_ico.png')}
+            source={require('../../../images/settings/point_ico.png')}
             code='daily_score'
             onChangeText={this.onChangeText}
           />
@@ -204,7 +204,7 @@ class KPISetupContainer extends React.Component {
             value={`${get(this.state, 'kpiConfig.date_count', 0)}`}
             code='date_count'
             onChangeText={this.onChangeText}
-            source={require('images/settings/ic_today.png')}
+            source={require('../../../images/settings/ic_today.png')}
           />
           <Divider style={{ marginTop: 16, marginBottom: 16 }} />
           <SubTitle>THIẾT LẬP THƯỞNG DOANH SỐ:</SubTitle>

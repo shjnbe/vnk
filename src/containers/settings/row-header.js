@@ -4,7 +4,7 @@ import styled from 'styled-components/native'
 import colors from '../../themes/colors'
 
 const ImageView = styled.Image.attrs({
-  source: require('images/settings/img-skill.png'),
+  source: require('../../images/settings/img-skill.png'),
   resizeMode: 'stretch'
 })`
   height: 120

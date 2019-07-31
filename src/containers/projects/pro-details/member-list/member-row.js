@@ -31,22 +31,22 @@ export default class MemberRow extends React.Component {
     this.renderListButton = [
       {
         backgroundColor: '#ffffff',
-        component: this.renderButton(require('images/globe/phone.png')),
+        component: this.renderButton(require('../../../../images/globe/phone.png')),
         onPress: () => this.callAction('phone', props.phone)
       },
       { 
         backgroundColor: '#ffffff',
-        component: this.renderButton(require('images/globe/message.png')),
+        component: this.renderButton(require('../../../../images/globe/message.png')),
         onPress: () => this.callAction('emal', props.email)
       },
       {
         backgroundColor: '#ffffff',
-        component: this.renderButton(require('images/globe/map.png')),
+        component: this.renderButton(require('../../../../images/globe/map.png')),
         onPress: () => props.handleMap()
       },
       {
         backgroundColor: '#ffffff',
-        component: this.renderButton(require('images/globe/contact_delete.png')),
+        component: this.renderButton(require('../../../../images/globe/contact_delete.png')),
         onPress: () => props.handleDelteteContact(props.index)
       }
     ]
@@ -100,7 +100,7 @@ export default class MemberRow extends React.Component {
             <Left>
               <CachedImage source={this.props.avatar
                 ? { uri: this.props.avatar }
-                : require('images/logo.png')}
+                : require('../../../../images/logo.png')}
                 style={{
                   width: 40,
                   height: 40,

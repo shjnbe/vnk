@@ -123,12 +123,12 @@ class CompanyContainer extends React.Component {
                 height: 143
               }}
               source={
-                isEmpty(company.image) ? require('images/logo.png')
+                isEmpty(company.image) ? require('../../images/logo.png')
                   : { uri: company.image }
               }
             />
           </Touchable>
-          {/* <ArImage source={company.image ? { uri: company.image } : require('images/globe/noimage.png')} /> */}
+          {/* <ArImage source={company.image ? { uri: company.image } : require('../../images/globe/noimage.png')} /> */}
           <LeftText style={{ marginTop: 8 }}>Liên hệ:</LeftText>
           <ContactView>
             {

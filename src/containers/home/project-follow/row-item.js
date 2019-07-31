@@ -95,7 +95,7 @@ export default class RowItemView extends React.Component {
                 height: this.props.size
               }}
               source={
-                this.props.image ? { uri: this.props.image } : require('images/logo.png')
+                this.props.image ? { uri: this.props.image } : require('../../../images/logo.png')
               }
             />
             <CircleButton

@@ -53,12 +53,12 @@ class CompanyFollow extends React.PureComponent {
       //     style={{ flexDirection: 'row', paddingLeft: 12, paddingRight: 12 }}
       //   >
       //     <RowAdd
-      //       source={require('images/home/img3.png')}
+      //       source={require('../../../images/home/img3.png')}
       //       size={this.state.size}
       //     />
       //     <Row
       //       title='ISOFT GLOBE'
-      //       source={require('images/home/diana_card_1.png')}
+      //       source={require('../../../images/home/diana_card_1.png')}
       //       size={this.state.size}
       //     />
       //   </View>

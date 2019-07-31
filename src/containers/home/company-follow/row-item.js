@@ -6,7 +6,7 @@ import { CachedImage } from 'react-native-cached-image'
 import { Touchable } from 'components/base';
 
 const IconPlus = styled.Image.attrs({
-  source: require('images/globe/plus-button.png')
+  source: require('../../../images/globe/plus-button.png')
 })`
   width: 30
   height: 30
@@ -82,7 +82,7 @@ export default class RowItem extends React.Component {
               height: this.props.size-5
             }}
             source={
-              image ? { uri: image } : require('images/logo.png')
+              image ? { uri: image } : require('../../../images/logo.png')
             }
           />
           <View

@@ -16,7 +16,7 @@ color: white fontWeight: bold margin-bottom: 8 marginLeft: 16`
 
 
 const ImageView = styled.Image.attrs({
-  source: require('images/logo.png'),
+  source: require('../../../images/logo.png'),
   resizeMode: 'contain' //
 })`
   marginTop: 60

@@ -212,7 +212,7 @@ class ProOverview extends React.Component {
             <Touchable opacity={this.state.isEdit ? 0.6 : 1} onPress={this.handleUploadImage}>
               <CachedImage source={this.state.image
                 ? { uri: this.state.image }
-                : require('images/logo.png')}
+                : require('../../../../images/logo.png')}
                 style={{
                   width: 78,
                   height: 78,

@@ -65,7 +65,7 @@ class TimeStatusContainer extends React.Component {
       <Container>
         <SettingGeneralView
           title='Thời gian gữa các trạng thái'
-          source={require('images/settings/s-time.png')}
+          source={require('../../../images/settings/s-time.png')}
         />
         <Title>THIẾT LẬP KHOẢNG THỜI GIAN</Title>
         <Divider />

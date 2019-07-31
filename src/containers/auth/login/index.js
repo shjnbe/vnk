@@ -27,7 +27,7 @@ import * as _ from 'lodash'
 
 
 const ImageView = styled.Image.attrs({
-  source: require('images/logo.png'),
+  source: require('../../../images/logo.png'),
   resizeMode: 'contain' //
 })`
   marginTop: 60

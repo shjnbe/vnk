@@ -127,7 +127,7 @@ class ServiceSettingContainer extends React.Component {
       <Container>
         <SubHeaderView
           title='Gói dịch vụ'
-          source={require('images/settings/s-service.png')}
+          source={require('../../../images/settings/s-service.png')}
           right={this.renderRight()}
         />
         <SubHeader>

@@ -195,7 +195,7 @@ class DetailsMember extends React.Component {
     const avatar = _.get(this.state, 'user.avatar')
     return (
         <UserInfo style={{}}>
-          <Thumbnail large source={ _.isEmpty(avatar) ? require('images/logo.png') : { uri: avatar }} />
+          <Thumbnail large source={ _.isEmpty(avatar) ? require('../../../../images/logo.png') : { uri: avatar }} />
           <InfoRight>
             <TextInfo fontSize={13} fontWeight='bold'>
               {_.get(this.state, 'user.full_name')}
@@ -214,7 +214,7 @@ class DetailsMember extends React.Component {
     return (
       <UserInfo style={{}}>
         <Touchable onPress={this.handleUploadImage} >
-          <Thumbnail large source={ _.isEmpty(avatar) ? require('images/logo.png') : { uri: avatar }} />
+          <Thumbnail large source={ _.isEmpty(avatar) ? require('../../../../images/logo.png') : { uri: avatar }} />
         </Touchable>
         <InfoRight>
           <MemberInput

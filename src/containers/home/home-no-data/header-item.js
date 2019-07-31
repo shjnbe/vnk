@@ -65,12 +65,12 @@ export default class HeaderView extends React.PureComponent {
       <ContainerView>
         <ItemView
           title='Vinhomes Hot'
-          icon={require('images/home/p-1.png')}
+          icon={require('../../../images/home/p-1.png')}
           hasAdd
           onPressAdd={this.handleAdd}
         />
-        <ItemView title='Dự án 2 Hot' icon={require('images/home/p-2.png')} />
-        <ItemView title='Dự án 3 Hot' icon={require('images/home/p-3.png')} />
+        <ItemView title='Dự án 2 Hot' icon={require('../../../images/home/p-2.png')} />
+        <ItemView title='Dự án 3 Hot' icon={require('../../../images/home/p-3.png')} />
       </ContainerView>
     )
   }

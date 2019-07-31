@@ -9,7 +9,7 @@ import { cleanDataCacheProject } from '@redux/actions/projectAction'
 import * as _ from 'lodash'
 
 const ImageBgView = styled.Image.attrs({
-  source: require('images/home/ic-eagle.png'),
+  source: require('../../../images/home/ic-eagle.png'),
   resizeMode: 'stretch'
 })`
 position: absolute
@@ -32,7 +32,7 @@ backgroundColor: ${colors.rouge}
 `
 
 const ImageDesc = styled.Image.attrs({
-  source: require('images/home/home-check.png')
+  source: require('../../../images/home/home-check.png')
 })`
   width: 41
   height: 41
@@ -41,7 +41,7 @@ const ImageDesc = styled.Image.attrs({
 `
 
 const IconHandle = styled.Image.attrs({
-  source: require('images/globe/ic-handle.png')
+  source: require('../../../images/globe/ic-handle.png')
 })`
   width: 30
   height: 36
@@ -161,7 +161,7 @@ class HomeContainer extends React.Component {
             />
             <HeaderTitle>Thêm Dự án</HeaderTitle>
           </HeaderContent>
-          <ImageBackground source={require('images/home/ic-eagle.png')} style={{
+          <ImageBackground source={require('../../../images/home/ic-eagle.png')} style={{
             width: '100%', height: '88%',
             marginTop: 60
           }} />

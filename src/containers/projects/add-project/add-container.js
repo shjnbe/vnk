@@ -201,7 +201,7 @@ class ProOverview extends React.Component {
             </View>
             <CachedImage source={this.state.image
               ? { uri: this.state.image }
-              : require('images/logo.png')}
+              : require('../../../images/logo.png')}
               style={{
                 width: 78,
                 height: 78,

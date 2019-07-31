@@ -67,7 +67,7 @@ export default class ProRow extends React.Component {
         <Card style={{ flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>
           <CachedImage source={this.props.image
               ? { uri: this.props.image }
-              : require('images/logo.png')}
+              : require('../../../images/logo.png')}
               style={{
                 width: 90,
                 height: 90,

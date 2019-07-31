@@ -70,31 +70,31 @@ class AddProjectContainer extends React.Component {
       {
         key: 'general',
         title: 'Tổng quan',
-        icon: require('images/projects/ic_general.png'),
+        icon: require('../../../images/projects/ic_general.png'),
         isTab: true
       },
       {
         key: 'contact',
         title: 'Người liên hệ',
-        icon: require('images/projects/ic_contact.png'),
+        icon: require('../../../images/projects/ic_contact.png'),
         navigateKey: 'memberList'
       },
       {
         key: 'note',
         title: 'Ghi chú',
-        icon: require('images/projects/ic_note.png'),
+        icon: require('../../../images/projects/ic_note.png'),
         isTab: true
       },
       {
         key: 'follow',
         title: 'Theo dõi',
-        icon: require('images/company/follow.png'),
+        icon: require('../../../images/company/follow.png'),
         navigateKey: 'modal_check'
       },
       {
         key: 'addStack',
         title: 'Giao việc',
-        icon: require('images/projects/ic_add_stack.png'),
+        icon: require('../../../images/projects/ic_add_stack.png'),
         navigateKey: 'taskAssign'
       }
     ]

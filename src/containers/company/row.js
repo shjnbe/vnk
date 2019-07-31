@@ -7,7 +7,7 @@ import { Icon, View, Card, Row, Col, Title, Text } from 'native-base'
 // import ModalDialog from 'components/elements/modal-dialog';
 
 // const ArImage = styled.Image.attrs({
-//   source: require('images/company/maxresdefault.png'),
+//   source: require('../../images/company/maxresdefault.png'),
 //   resizeMode: 'stretch'
 // })`
 //   width: 90
@@ -40,7 +40,7 @@ const TextFollow = styled.Text`
 const FollowView = ({ isFollow, color, style, onFollowChange }) => (
   <TouchableOut onPress={onFollowChange}>
     <View style={[{ justifyContent: 'center', alignItems: 'center' }, style]}>
-      <ImageFollow source={isFollow ? require('images/company/follow.png') : require('images/company/unfollow.png')} />
+      <ImageFollow source={isFollow ? require('../../images/company/follow.png') : require('../../images/company/unfollow.png')} />
       <TextFollow color={color}>{isFollow ? 'Bỏ TD' : 'Theo dõi'}</TextFollow>
     </View>
   </TouchableOut>
@@ -76,7 +76,7 @@ export default class CompanyRow extends React.PureComponent {
         <Card style={{ flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>
           <CachedImage source={this.props.image
             ? { uri: this.props.image }
-            : require('images/logo.png')}
+            : require('../../images/logo.png')}
             style={{
               width: 90,
               height: 90,

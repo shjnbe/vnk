@@ -95,13 +95,13 @@ class KPIPersonContainer extends React.Component {
       <Container>
         <SubHeaderView
           title='KPIs: Chấm Lương ngày hôm nay'
-          source={require('images/settings/business-icon.png')}
+          source={require('../../../images/settings/business-icon.png')}
           right={
             <ButtonSave
               style={{ paddingLeft: 8, paddingRight: 8 }}
               onPress={this.handleKpiMonth}
             >
-              <ImageRight source={require('images/settings/ic_today.png')} />
+              <ImageRight source={require('../../../images/settings/ic_today.png')} />
             </ButtonSave>
           }
         />

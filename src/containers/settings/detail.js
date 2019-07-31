@@ -5,7 +5,7 @@ import colors from '../../themes/colors'
 import NavHeader from 'components/elements/nav-header'
 
 const ImageView = styled.Image.attrs({
-  source: require('images/settings/img-skill.png'),
+  source: require('../../images/settings/img-skill.png'),
   resizeMode: 'contain'
 })`
   width: 335

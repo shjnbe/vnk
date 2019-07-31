@@ -13,15 +13,15 @@ export default class NotifyRow extends React.Component {
     const type = _.get(this.props, 'data.notification.id')
     switch (type) {
       case 'task_assigned': // Noi bo nhom
-        return require('images/globe/notify_inteam.png')
+        return require('../../images/globe/notify_inteam.png')
       case 'project_status_changed': // Noi bo nhom
-        return require('images/globe/notify_project_status.png')
+        return require('../../images/globe/notify_project_status.png')
       case 'project_status_need_update': // Noi bo nhom
-        return require('images/globe/notify_need_update.png')
+        return require('../../images/globe/notify_need_update.png')
       case 'salary_confirmation': // Noi bo nhom
-        return require('images/globe/ic_money.png')
+        return require('../../images/globe/ic_money.png')
       default:
-        return require('images/globe/notify_sys.png')
+        return require('../../images/globe/notify_sys.png')
     }
   }
 
