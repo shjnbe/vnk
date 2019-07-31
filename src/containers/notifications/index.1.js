@@ -6,7 +6,7 @@ import NavHeader from 'components/elements/nav-header'
 import NotifyRow from './notify-row'
 import DATA from './data'
 import RnLoading from './rn-loading';
-import messageDefault from 'constants/notify-data'
+import messageDefault from '../../constants/notify-data'
 import moment from 'moment'
 import CACHE from '../../utils/cache'
 import connectAutoDispatch from '../../@redux/connect';

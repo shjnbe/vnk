@@ -6,7 +6,7 @@ import { login, saveUserInfoLocal } from '../../../@redux/actions/authAction'
 import { getNotifications } from '../../../@redux/actions/authAction'
 import CACHE from '../../../utils/cache'
 import KEY from '../../../constants/cache-key'
-import notifyDF from 'constants/notify-data'
+import notifyDF from '../../../constants/notify-data'
 import fcmClient from 'utils/fcm-client'
 import {
   Container,
