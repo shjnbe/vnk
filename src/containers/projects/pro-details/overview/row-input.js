@@ -2,7 +2,7 @@ import React from 'react'
 import { Item, Label, Input, Icon, Text, View, Picker, Header, Left, Body, Textarea, DatePicker } from 'native-base'
 import styled from 'styled-components/native'
 import moment from 'moment'
-import cities from 'constants/cities'
+import cities from '../../../../constants/cities'
 import { FIELD_TYPE } from './data-keys'
 
 const Touchable = styled.TouchableOpacity.attrs({

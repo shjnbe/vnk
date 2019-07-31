@@ -20,7 +20,7 @@ import { CachedImage } from 'react-native-cached-image'
 import LinearGradient from 'react-native-linear-gradient'
 import ImageCropPicker from 'react-native-image-crop-picker'
 import projectApi from '../../../api/projectApi'
-import cities from 'constants/cities';
+import cities from '../../../constants/cities';
 
 const TextButton = styled.Text`
   fontSize: 18

@@ -30,7 +30,7 @@ import authApi from '../../api/authApi';
 import connectAutoDispatch from '../../@redux/connect';
 import { getCompanies } from '../../@redux/actions/companyAction'
 import PickerAddNewUser from './picker-add-user';
-import cities from 'constants/cities';
+import cities from '../../constants/cities';
 import moment from 'moment'
 
 const UserView = styled.View`
