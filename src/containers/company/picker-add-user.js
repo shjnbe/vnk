@@ -3,7 +3,7 @@ import { Dimensions } from 'react-native'
 import Modal from 'react-native-modalbox'
 import { Right, Icon, Body, Text, Content, ListItem, Input, Item, View, Title, Label, Toast, Form } from 'native-base';
 import colors from '../../themes/colors';
-import mypStyles from 'themes/myp-styles';
+import mypStyles from '../../themes/myp-styles';
 import * as _ from 'lodash'
 import moment from 'moment';
 import styled from 'styled-components/native'

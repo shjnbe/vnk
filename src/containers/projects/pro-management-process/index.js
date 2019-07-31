@@ -12,7 +12,7 @@ import {
   NumberView,
   styles
 } from './oval-view'
-import mypStyles from 'themes/myp-styles'
+import mypStyles from '../../../themes/myp-styles'
 import styled from 'styled-components/native'
 import { withNavigation } from 'react-navigation'
 import LinearGradient from 'react-native-linear-gradient'

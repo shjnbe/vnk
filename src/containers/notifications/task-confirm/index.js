@@ -3,7 +3,7 @@ import { FlatList } from 'react-native'
 import { Container, Content, Fab, Icon, Footer, Button, Text, Header, Body, Left, Row, Toast } from 'native-base';
 import styled from 'styled-components/native'
 import colors from '../../../themes/colors';
-import mypStyles from 'themes/myp-styles';
+import mypStyles from '../../../themes/myp-styles';
 import PickerMonth from 'containers/projects/picker-month';
 import moment from 'moment'
 import * as _ from 'lodash'

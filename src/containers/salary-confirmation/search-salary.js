@@ -2,7 +2,7 @@ import React from 'react'
 import { Picker, Icon, Header, Title, Body, Right, View } from 'native-base'
 import moment from 'moment'
 import { isEqual } from 'lodash'
-import mypStyles from 'themes/myp-styles'
+import mypStyles from '../../../themes/myp-styles'
 import styled from 'styled-components/native'
 
 const Row = styled(View)` flexDirection: row justifyContent: flex-start alignItems: center paddingLeft: 16 paddingVertical: 12`

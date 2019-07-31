@@ -1,6 +1,6 @@
 import React from 'react'
 import { Textarea } from 'native-base'
-import mypStyles from 'themes/myp-styles'
+import mypStyles from '../../themes/myp-styles'
 
 export default class TaskInput extends React.Component {
   // shouldComponentUpdate (nextProps) {

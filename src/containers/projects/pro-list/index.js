@@ -16,7 +16,7 @@ import {
 import styled from 'styled-components/native'
 import Input from 'components/base/Input'
 import ProRow from './pro-row'
-import mypStyles from 'themes/myp-styles'
+import mypStyles from '../../../themes/myp-styles'
 import connectAutoDispatch from '../../../@redux/connect';
 import { getFollowProjects, postFollowProject, deleteFollowProject, selectedProject } from '@redux/actions/projectAction'
 import moment from 'moment'
