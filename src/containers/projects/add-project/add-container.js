@@ -9,7 +9,7 @@ import {
   Toast
 } from 'native-base'
 import connectAutoDispatch from '../../../@redux/connect'
-import { onNavigate } from '@redux/actions/app'
+import { onNavigate } from '../../../@redux/actions/app'
 import moment from 'moment'
 import dataKeys from '../pro-details/overview/data-keys'
 import RowInput from '../pro-details/overview/row-input'

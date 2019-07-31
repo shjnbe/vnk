@@ -4,7 +4,7 @@ import colors from '../../../themes/colors'
 import Touchable from '../../../components/base/Touchable'
 import { Icon, Card } from 'native-base'
 import moment from 'moment'
-import FollowView from 'components/elements/follow'
+import FollowView from '../../../components/elements/follow'
 import { CachedImage } from 'react-native-cached-image'
 import { has } from 'lodash'
  

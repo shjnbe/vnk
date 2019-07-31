@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components/native'
-import colors from '../../../themes/colors'
+import colors from '../../../../components/elements/follow'
 
 const InputTitle = styled.TextInput`
   fontFamily: Helvetica

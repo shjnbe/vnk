@@ -3,7 +3,7 @@ import { processColor } from 'react-native'
 import { BarChart } from 'react-native-charts-wrapper'
 import projectApi from '../../../api/projectApi'
 import * as _ from 'lodash'
-import DATA from 'containers/projects/data-task'
+import DATA from '../../../containers/projects/data-task'
 
 export default class KpiChart extends React.PureComponent {
   constructor () {

@@ -4,7 +4,7 @@ import colors from '../../../themes/colors'
 import Touchable from '../../../components/base/Touchable'
 import { Icon, View, Card, Thumbnail } from 'native-base'
 import moment from 'moment'
-import FollowView from 'components/elements/follow'
+import FollowView from '../../../components/elements/follow'
 import { CachedImage } from 'react-native-cached-image'
 import { has } from 'lodash'
 const ArContent = styled.View` justifyContent: space-between flex: 1 `

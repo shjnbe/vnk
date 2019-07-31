@@ -1,7 +1,7 @@
 import React from 'react'
 import * as _ from 'lodash'
 import styled from 'styled-components/native'
-import colors from '../../../themes/colors'
+import colors from '../../../../components/elements/follow'
 import {
   View,
   Card,
@@ -9,8 +9,8 @@ import {
   Thumbnail,
   Toast
 } from 'native-base'
-import connectAutoDispatch from '../../../@redux/connect'
-import { onNavigate } from '@redux/actions/app'
+import connectAutoDispatch from '../../../../@redux/connect'
+import { onNavigate } from '../../../../@redux/actions/app'
 import moment from 'moment'
 import dataKeys from './data-keys'
 import RowView from './row-view'
