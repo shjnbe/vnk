@@ -128,9 +128,9 @@ android {
     signingConfigs {
         release {
             storeFile file('myp-vnk.jks')
-            storePassword "vnk123456"
-            keyAlias "alias"
-            keyPassword "pwd"
+            storePassword "Vnk@2018"
+            keyAlias "MyProject"
+            keyPassword "Vnk@2018"
         }
     }
 
