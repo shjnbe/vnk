@@ -13,7 +13,7 @@ import {
 } from 'native-base'
 import TabItem from '../pro-details/tab-item'
 import ProOverview from '../pro-details/overview'
-import BackButton from 'components/elements/back-button'
+import BackButton from '../../../components/elements/back-button'
 import NoteContainer from '../pro-details/note'
 import moment from 'moment'
 import connectAutoDispatch from '../../../@redux/connect';

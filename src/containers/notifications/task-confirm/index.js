@@ -10,8 +10,8 @@ import * as _ from 'lodash'
 import connectAutoDispatch from '../../../@redux/connect';
 import authApi from '../../../api/authApi';
 import { SALES, POSITION } from '../../../constants/position-sale';
-import taskApi from 'api/taskApi';
-import notifyApi from 'api/notifyApi'
+import taskApi from '../../../api/taskApi';
+import notifyApi from '../../../api/notifyApi'
 import TaskRow from './task-item'
 import ModalDialog from '../../../components/elements/modal-dialog';
 import { getProjectById } from '../../../@redux/actions/projectAction'

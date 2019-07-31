@@ -3,7 +3,7 @@ import { Picker, Icon, Header, Left, Title, Body, Right } from 'native-base'
 import moment from 'moment'
 import { isEqual, get } from 'lodash'
 import mypStyles from '../../themes/myp-styles'
-import staffTypes from 'constants/staff-type';
+import staffTypes from '../../constants/staff-type';
 import colors from '../../themes/colors';
 
 export default class PickerOptionSale extends React.Component {

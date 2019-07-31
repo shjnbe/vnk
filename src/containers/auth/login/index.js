@@ -18,7 +18,7 @@ import {
   Toast
 } from 'native-base'
 
-import InputLogin from '../../components/elements/input-login'
+import InputLogin from '../../../components/elements/input-login'
 import connectAutoDispatch from '../../../@redux/connect'
 import moment from 'moment'
 import FCM from 'react-native-fcm'

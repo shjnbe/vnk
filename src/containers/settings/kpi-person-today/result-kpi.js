@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/native'
-import scores from 'constants/score-kpi'
+import scores from '../../../constants/score-kpi'
 import { join, map, sum, round, get, mapKeys, isNaN } from 'lodash'
 
 const Wrapper = styled.View`

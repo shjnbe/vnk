@@ -13,7 +13,7 @@ import {
 } from 'native-base'
 import TabItem from './tab-item'
 import ProOverview from './overview'
-import BackButton from 'components/elements/back-button'
+import BackButton from '../../../components/elements/back-button'
 import NoteContainer from './note'
 import moment from 'moment'
 import ModalDialog from '../../../components/elements/modal-dialog'

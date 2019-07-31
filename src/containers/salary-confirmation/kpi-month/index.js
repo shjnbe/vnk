@@ -12,10 +12,10 @@ import connectAutoDispatch from '../../../@redux/connect'
 import * as _ from 'lodash'
 import settingApi from '../../../api/settingApi';
 import moment from 'moment'
-import scores from 'constants/score-kpi'
+import scores from '../../../constants/score-kpi'
 import { NavHeader } from '../../../components/elements/nav-header'
 import EditKpiComponent from '../edit-kpi';
-import salaryApi from 'api/salaryApi';
+import salaryApi from '../../../api/salaryApi';
 
 const Text = styled.Text`
   fontFamily: Helvetica
