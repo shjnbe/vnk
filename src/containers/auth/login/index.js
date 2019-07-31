@@ -3,7 +3,7 @@ import styled from 'styled-components/native'
 import colors from '../../../themes/colors'
 import styles from './styles'
 import { login, saveUserInfoLocal } from '../../../@redux/actions/authAction'
-import { getNotifications } from '../../../@redux/actions/authAction'
+import { getNotifications } from '../../../@redux/actions/notifyAction'
 import CACHE from '../../../utils/cache'
 import KEY from '../../../constants/cache-key'
 import notifyDF from '../../../constants/notify-data'
@@ -33,14 +33,14 @@ const ImageView = styled.Image.attrs({
   alignSelf: center
 `
 // {
-	
+
 // 	"registration_ids": ["fjUVPOCVcCU:APA91bGkB_15R1BzOj-gv2wqag-Rmwx2YA-Xh3WRWFpveNTIlxrGMn1aaq1YbYTEvhF6WnGb3Eggb4oEpM6zzOteEDf7LEzFHTOMylqW0AuJXpySyQL2B_5aVa2LKrSVAW3tfjFommQy"],
 //         "collapse_key": "1543594244378245%6a24bae6f9fd7ecd",
 //         "notification": {"title": "DVT", "body": "test"},
 //         "data": {}
 
 // }
-function getNotification (to, title, msg) {
+function getNotification(to, title, msg) {
   return {
     registration_ids: [to],
     notification: {
@@ -62,7 +62,7 @@ function getNotification (to, title, msg) {
 }
 
 class LoginContainer extends React.Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       fcm: null,
@@ -72,18 +72,18 @@ class LoginContainer extends React.Component {
     }
   }
 
-  async componentWillMount () {
+  async componentWillMount() {
 
   }
- 
-  async componentDidMount () {
+
+  async componentDidMount() {
     const rs = await CACHE.getCache(KEY.USER_LOCAL)
     if (rs) {
       this.setState(rs)
     }
     const fcm = await CACHE.getCache(KEY.FCM_TOKEN)
     if (fcm) {
-      this.setState({fcm})
+      this.setState({ fcm })
     }
   }
 
@@ -104,7 +104,7 @@ class LoginContainer extends React.Component {
               duration: 4000
             })
           } else {
-            this.props.saveUserInfoLocal(rememberMe ? { email, password, rememberMe, saveToken: fcm.fcmToken } : null, fcm, {...user, password})
+            this.props.saveUserInfoLocal(rememberMe ? { email, password, rememberMe, saveToken: fcm.fcmToken } : null, fcm, { ...user, password })
             this.props.getNotifications(user)
             this.props.navigation.navigate('app')
           }
@@ -139,7 +139,7 @@ class LoginContainer extends React.Component {
     this.setState({ [key]: value })
   }
 
-  render () {
+  render() {
     return (
       <Container style={{ backgroundColor: colors.rouge }}>
         <Content style={{ marginLeft: 16, marginRight: 16 }}>

@@ -6,7 +6,7 @@ import KEY from '../../../constants/cache-key'
 import CACHE from '../../../utils/cache'
 import authApi from '../../../api/authApi';
 import { login, saveUserInfoLocal, logoutInfo } from '../../../@redux/actions/authAction'
-import { getNotifications } from '../../../@redux/actions/authAction'
+import { getNotifications } from '../../../@redux/actions/notifyAction'
 import connectAutoDispatch from '../../../@redux/connect';
 import * as _ from 'lodash'
 
