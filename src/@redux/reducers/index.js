@@ -1,6 +1,6 @@
 import { createNavigationReducer } from 'react-navigation-redux-helpers'
 
-import SwitchApp from 'vnk-navigation'
+import SwitchApp from '../../vnk-navigation'
 import auth from './authReducer'
 import settings from './settingReducer'
 import project from './projectReducer'

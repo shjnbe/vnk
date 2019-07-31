@@ -1,9 +1,9 @@
 import React from 'react'
 import { View, Modal } from 'react-native'
-import colors from 'themes/colors';
+import colors from '../../../themes/colors';
 import { Container, Content, Label as NewLabel, Text, Button, Input, Toast } from 'native-base';
 import styled from 'styled-components/native'
-import authApi from 'api/authApi';
+import authApi from '../../../api/authApi';
 import connectAutoDispatch from '@redux/connect';
 import * as _ from 'lodash'
 

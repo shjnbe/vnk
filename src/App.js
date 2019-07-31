@@ -8,11 +8,11 @@ import vnkTheme from './themes/native-base-theme'
 import codePush from 'react-native-code-push'
 import FCM, { NotificationActionType, FCMEvent } from "react-native-fcm";
 import { registerKilledListener, registerAppListener } from './utils/fcm-listeners'
-import KEY from 'constants/cache-key'
-import CACHE from 'utils/cache'
+import KEY from './constants/cache-key'
+import CACHE from './utils/cache'
 import 'moment/locale/vi'
 
-import MyApp from 'vnk-navigation'
+import MyApp from './vnk-navigation'
 registerKilledListener()
 const AppRedux = reduxifyNavigator(MyApp, 'app')
 const mapStateToProps = state => ({
@@ -22,7 +22,7 @@ const mapStateToProps = state => ({
 const AppWithNavigationState = connect(mapStateToProps)(AppRedux)
 
 class App extends React.Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     YellowBox.ignoreWarnings([
       'Warning: isMounted(...) is deprecated',
@@ -30,7 +30,7 @@ class App extends React.Component {
     ])
   }
 
-  async componentDidMount () {
+  async componentDidMount() {
     registerAppListener(this.props.navigation);
     try {
       let result = await FCM.requestPermissions({
@@ -57,7 +57,7 @@ class App extends React.Component {
     }
   }
 
-  render () {
+  render() {
     return (
       <Provider store={configureStore}>
         <StyleProvider style={getTheme(vnkTheme)}>

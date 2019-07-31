@@ -1,5 +1,5 @@
 import { createStore, combineReducers } from 'redux'
-import middlewares from 'middlewares'
+import middlewares from '../middlewares'
 
 import rootReducer from './reducers'
 

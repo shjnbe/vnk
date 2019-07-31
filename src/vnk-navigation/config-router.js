@@ -6,20 +6,20 @@ import {
 
 import styled from 'styled-components/native'
 
-import LoginContainer from 'containers/auth/login'
-import RegisterContainer from 'containers/auth/register'
+import LoginContainer from '../containers/auth/login'
+import RegisterContainer from '../containers/auth/register'
 
-import HomeContainer from 'containers/home'
-import CompanyContainer from 'containers/company'
-import ProjectContainer from 'containers/projects'
-import NotificationsContainer from 'containers/notifications'
-import SettingsContainer from 'containers/settings'
-import colors from 'themes/colors'
-import TaskAssignComponent from 'containers/projects/task-assign';
-import NotifyDetailContainer from 'containers/notifications/notify-detail';
-import TaskConfirmComponent from 'containers/notifications/task-confirm'
-import SalaryConfirmComponent from 'containers/salary-confirmation'
-import SalaryConfirmDetail from 'containers/salary-confirmation/kpi-month'
+import HomeContainer from '../containers/home'
+import CompanyContainer from '../containers/company'
+import ProjectContainer from '../containers/projects'
+import NotificationsContainer from '../containers/notifications'
+import SettingsContainer from '../containers/settings'
+import colors from '../themes/colors'
+import TaskAssignComponent from '../containers/projects/task-assign';
+import NotifyDetailContainer from '../containers/notifications/notify-detail';
+import TaskConfirmComponent from '../containers/notifications/task-confirm'
+import SalaryConfirmComponent from '../containers/salary-confirmation'
+import SalaryConfirmDetail from '../containers/salary-confirmation/kpi-month'
 import BadgeIcon from './badge-icon'
 
 const Label = styled.Text.attrs({ numberOfLines: 1 })`

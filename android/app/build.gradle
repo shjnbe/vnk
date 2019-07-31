@@ -128,9 +128,9 @@ android {
     signingConfigs {
         release {
             storeFile file('android.jks')
-            storePassword ""
-            keyAlias ""
-            keyPassword ""
+            storePassword "pwd"
+            keyAlias "alias"
+            keyPassword "pwd"
         }
     }
 
