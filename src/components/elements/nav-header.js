@@ -1,6 +1,6 @@
 import React from 'react'
 import { Header, Body, Icon, Title, Left, Right } from 'native-base'
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 import mypStyles from 'themes/myp-styles';
 import styled from 'styled-components/native'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 
 import { View, Item, Input, Label } from 'native-base'
 

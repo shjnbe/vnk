@@ -3,7 +3,7 @@ import { Dimensions } from 'react-native'
 import styled from 'styled-components/native'
 import { Card, CardItem, Icon } from 'native-base'
 import { get } from 'lodash'
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 import CircleButton from './circle-button'
 const LocationView = styled.View`
   flexDirection: row

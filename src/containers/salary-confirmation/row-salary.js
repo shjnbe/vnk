@@ -2,7 +2,7 @@ import React from 'react'
 import { ListItem, Text, Row, View, Icon } from 'native-base'
 import styled from 'styled-components/native'
 import moment from 'moment'
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 import * as _ from 'lodash'
 import { SALES } from 'constants/position-sale'
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, Icon } from 'native-base'
 import styled from 'styled-components/native'
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 
 const ImageView = styled.Image.attrs({
   source: require('images/settings/img-skill.png'),

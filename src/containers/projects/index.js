@@ -1,7 +1,7 @@
 import { createStackNavigator } from 'react-navigation'
 
 import ProListComponent from './pro-list'
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 import ProDetails from './pro-details'
 import ManagementProcessContainer from './pro-management-process'
 import MemberListContainer from './pro-details/member-list'

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components/native'
 import { Button } from 'native-base'
 
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 
 const Title = styled.Text`
   color: ${props => props.color || colors.rouge};

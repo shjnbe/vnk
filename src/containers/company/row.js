@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/native'
 import { CachedImage } from 'react-native-cached-image'
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 
 import { Icon, View, Card, Row, Col, Title, Text } from 'native-base'
 // import ModalDialog from 'components/elements/modal-dialog';

@@ -4,7 +4,7 @@ import { Header } from 'native-base'
 // import { withNavigation } from 'react-navigation'
 import NavigationBar from 'react-native-navbar'
 
-// import colors from 'themes/colors'
+// import colors from '../../themes/colors'
 import mypStyles from 'themes/myp-styles'
 
 // const Wrapper = styled.View`

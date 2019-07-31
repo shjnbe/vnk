@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/native'
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 
 import { FlatList } from 'react-native'
 import { Container, Content, Icon, Item, View, Card, Toast } from 'native-base'

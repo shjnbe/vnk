@@ -1,7 +1,7 @@
 import React from 'react'
 import Modal from 'react-native-modalbox'
 import { Header, Right, Icon, Body, Text, Content, ListItem } from 'native-base';
-import colors from 'themes/colors';
+import colors from '../../themes/colors';
 import mypStyles from 'themes/myp-styles';
 import { map, get } from 'lodash'
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Icon } from 'native-base'
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 
 export default ({ backgroundColor }) => (
   <View

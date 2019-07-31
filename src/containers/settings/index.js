@@ -1,7 +1,7 @@
 import { createStackNavigator } from 'react-navigation'
 import { get } from 'lodash'
 
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 import SettingsList from './list'
 import SettingsDetail from './detail'
 import SettingListContainer from './setting-list'

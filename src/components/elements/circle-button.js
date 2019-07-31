@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/native'
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 
 const Wrapper = styled.View`
   backgroundColor: ${props => props.bgColor || colors.white}

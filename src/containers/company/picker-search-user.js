@@ -2,7 +2,7 @@ import React from 'react'
 import { Dimensions } from 'react-native'
 import Modal from 'react-native-modalbox'
 import { Header, Right, Icon, Body, Text, Content, ListItem, Input, Item, View } from 'native-base';
-import colors from 'themes/colors';
+import colors from '../../themes/colors';
 import mypStyles from 'themes/myp-styles';
 import { map, get, min, clone, filter, includes, lowerCase, find, concat } from 'lodash'
 

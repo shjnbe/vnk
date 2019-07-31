@@ -3,7 +3,7 @@ import { Container, Content, Icon } from 'native-base'
 import styled from 'styled-components/native'
 import HeaderView from './row-header'
 import RowItem from './row'
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 import NavHeader from 'components/elements/nav-header'
 
 const TopTitleView = styled.View`

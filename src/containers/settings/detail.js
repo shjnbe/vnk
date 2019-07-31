@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Content, Icon } from 'native-base'
 import styled from 'styled-components/native'
-import colors from 'themes/colors'
+import colors from '../../themes/colors'
 import NavHeader from 'components/elements/nav-header'
 
 const ImageView = styled.Image.attrs({
