@@ -19,7 +19,7 @@ import moment from 'moment'
 import connectAutoDispatch from '../../../@redux/connect';
 import { postFollowProject } from '../../../@redux/actions/projectAction'
 import dataTask from '../data-task'
-import CircleButton from 'components/elements/circle-button'
+import CircleButton from '../../../components/elements/circle-button'
 import AddContainer from './add-container';
 
 const ArTimeView = styled.View`

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components/native'
 
 import { View } from 'native-base'
-// import ModalDialog from 'components/elements/modal-dialog';
+// import ModalDialog from '../../components/elements/modal-dialog';
 
 
 const ImageFollow = styled.Image`

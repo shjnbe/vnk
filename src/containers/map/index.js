@@ -2,7 +2,7 @@ import React from 'react'
 import { StyleSheet } from 'react-native'
 import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps'
 import { get } from 'lodash'
-import mapApi from 'api/mapApi';
+import mapApi from '../../api/mapApi';
 
 const DEFAULT_PADDING = { top: 40, right: 40, bottom: 40, left: 40 }
 

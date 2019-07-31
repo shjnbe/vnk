@@ -4,11 +4,11 @@ import colors from '../../themes/colors'
 
 import { FlatList } from 'react-native'
 import { Container, Content, Icon, Item, View, Card, Toast } from 'native-base'
-import Input from 'components/base/Input'
+import Input from '../../components/base/Input'
 import CompanyRow from './row'
 import companyApi from '../../api/companyApi'
 import * as _ from 'lodash'
-import ModalDialog from 'components/elements/modal-dialog'
+import ModalDialog from '../../components/elements/modal-dialog'
 import { CachedImage } from 'react-native-cached-image'
 import connectAutoDispatch from '../../@redux/connect';
 import {
@@ -17,7 +17,7 @@ import {
   getCompanies,
   onCompanySelected
 } from '../../@redux/actions/companyAction'
-import { toVietnamese } from 'utils/extentions'
+import { toVietnamese } from '../../utils/extentions'
 
 const TextBase = styled.Text`
   fontFamily: Helvetica

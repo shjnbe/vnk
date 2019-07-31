@@ -6,7 +6,7 @@ import colors from '../../themes/colors'
 import HomeNoDataContainer from './home-no-data'
 import TaskComponent from './task-component'
 import HomeListContainer from './home-list'
-import ServiceSettingContainer from 'containers/settings/service-setting'
+import ServiceSettingContainer from '../../containers/settings/service-setting'
 import PickerMonth from './task-component/picker-month'
 
 const navigationOptionHome = ({ navigation }) => {

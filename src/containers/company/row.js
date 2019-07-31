@@ -4,7 +4,7 @@ import { CachedImage } from 'react-native-cached-image'
 import colors from '../../themes/colors'
 
 import { Icon, View, Card, Row, Col, Title, Text } from 'native-base'
-// import ModalDialog from 'components/elements/modal-dialog';
+// import ModalDialog from '../../components/elements/modal-dialog';
 
 // const ArImage = styled.Image.attrs({
 //   source: require('../../images/company/maxresdefault.png'),

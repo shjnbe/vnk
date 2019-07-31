@@ -3,14 +3,14 @@ import { Container, Content } from 'native-base'
 import styled from 'styled-components/native'
 import SubHeaderView from '../sub-header-view'
 import UserInfo from './kpi-user-info'
-import Divider from 'components/elements/divider'
+import Divider from '../../../components/elements/divider'
 import rows from '../data-kpi-person'
 import KpiPersonItem from './kpi-person-item'
 import styles from './styles'
 import ResultKpi from './result-kpi'
 import connectAutoDispatch from '../../../@redux/connect'
 import * as _ from 'lodash'
-import settingApi from 'api/settingApi';
+import settingApi from '../../../api/settingApi';
 import moment from 'moment'
 import scores from 'constants/score-kpi'
 

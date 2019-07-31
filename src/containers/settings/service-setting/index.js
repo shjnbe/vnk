@@ -3,13 +3,13 @@ import { Container, Content, Icon, Toast } from 'native-base'
 import SubHeaderView from '../sub-header-view'
 import styled from 'styled-components/native'
 import colors from '../../../themes/colors'
-import Divider from 'components/elements/divider'
+import Divider from '../../../components/elements/divider'
 import ServiceSettingItem from './service-setting-item'
-import settingApi from 'api/settingApi';
+import settingApi from '../../../api/settingApi';
 import connectAutoDispatch from '../../../@redux/connect';
 import * as _ from 'lodash'
 import orders from './data-orders'
-import ModalDialog from 'components/elements/modal-dialog';
+import ModalDialog from '../../../components/elements/modal-dialog';
 import moment from 'moment'
 
 const SubHeader = styled.View`

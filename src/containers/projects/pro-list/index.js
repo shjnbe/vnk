@@ -14,13 +14,13 @@ import {
   View
 } from 'native-base'
 import styled from 'styled-components/native'
-import Input from 'components/base/Input'
+import Input from '../../../components/base/Input'
 import ProRow from './pro-row'
 import mypStyles from '../../../themes/myp-styles'
 import connectAutoDispatch from '../../../@redux/connect';
 import { getFollowProjects, postFollowProject, deleteFollowProject, selectedProject } from '../../../@redux/actions/projectAction'
 import moment from 'moment'
-import ModalDialog from 'components/elements/modal-dialog'
+import ModalDialog from '../../../components/elements/modal-dialog'
 
 class ProListView extends React.Component {
 

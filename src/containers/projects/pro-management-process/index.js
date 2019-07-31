@@ -16,7 +16,7 @@ import mypStyles from '../../../themes/myp-styles'
 import styled from 'styled-components/native'
 import { withNavigation } from 'react-navigation'
 import LinearGradient from 'react-native-linear-gradient'
-import ModalDialog from 'components/elements/modal-dialog'
+import ModalDialog from '../../../components/elements/modal-dialog'
 import connectAutoDispatch from '../../../@redux/connect';
 import { updateFollowProject } from '../../../../@redux/actions/projectAction'
 import { get, omit, slice, size, map, isNumber } from 'lodash'

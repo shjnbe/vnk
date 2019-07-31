@@ -16,11 +16,11 @@ import ProOverview from './overview'
 import BackButton from 'components/elements/back-button'
 import NoteContainer from './note'
 import moment from 'moment'
-import ModalDialog from 'components/elements/modal-dialog'
+import ModalDialog from '../../../components/elements/modal-dialog'
 import connectAutoDispatch from '../../../@redux/connect';
 import { postFollowProject, deleteFollowProject } from '../../../@redux/actions/projectAction'
 import dataTask from '../data-task'
-import CircleButton from 'components/elements/circle-button'
+import CircleButton from '../../../components/elements/circle-button'
 
 const ArTimeView = styled.View`
   marginBottom: 8

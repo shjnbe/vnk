@@ -2,11 +2,11 @@ import React from 'react'
 import { Container, Content, Button, Text, Toast } from 'native-base'
 import styled from 'styled-components/native'
 import { SettingGeneralView } from '../header-setting-view'
-import Divider from 'components/elements/divider'
+import Divider from '../../../components/elements/divider'
 import TimeStatusItem from './time-status-item'
 import rows, { STATUS_DATA_DEFAULT } from './data-status'
 import * as _ from 'lodash'
-import settingApi from 'api/settingApi';
+import settingApi from '../../../api/settingApi';
 import connectAutoDispatch from '../../../@redux/connect';
 
 const Title = styled.Text`

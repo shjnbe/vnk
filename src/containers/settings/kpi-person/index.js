@@ -3,7 +3,7 @@ import { Container, Content, Toast } from 'native-base'
 import styled from 'styled-components/native'
 import SubHeaderView from '../sub-header-view'
 import UserInfo from './kpi-user-info'
-import Divider from 'components/elements/divider'
+import Divider from '../../../components/elements/divider'
 import rows from '../data-kpi-person'
 import scores from 'constants/score-kpi'
 import KpiPersonItem from './kpi-person-item'
@@ -13,7 +13,7 @@ import connectAutoDispatch from '../../../@redux/connect'
 import { get, isEmpty, has } from 'lodash'
 
 import { configKpiToday } from '@redux/actions/settingAction'
-import settingApi from 'api/settingApi';
+import settingApi from '../../../api/settingApi';
 
 const Text = styled.Text``
 const ButtonSave = styled.TouchableOpacity.attrs({
