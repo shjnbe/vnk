@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components/native'
 
 import FCM from 'react-native-fcm';
-import connectAutoDispatch from '@redux/connect';
+import connectAutoDispatch from '../@redux/connect';
 
 const BadgeView = styled.View`
   position: absolute
@@ -57,26 +57,26 @@ class BadgeIcon extends React.Component {
   }
 
   render() {
-    if (this.state.badge === 0) return <TabIcon source={this.props.focused ? require('images/tabs/tab-notify-active.png') : require('images/tabs/tab-notify.png')} />
+    if (this.state.badge === 0) return <TabIcon source={this.props.focused ? require('../images/tabs/tab-notify-active.png') : require('../images/tabs/tab-notify.png')} />
     return (
       <View>
-        <BadgeView><BadgeTitle>{this.state.badge < 100 ? this.state.badge : '99+' }</BadgeTitle></BadgeView>
+        <BadgeView><BadgeTitle>{this.state.badge < 100 ? this.state.badge : '99+'}</BadgeTitle></BadgeView>
         {
-          <TabIcon source={this.props.focused ? require('images/tabs/tab-notify-active.png') : require('images/tabs/tab-notify.png')} />
+          <TabIcon source={this.props.focused ? require('../images/tabs/tab-notify-active.png') : require('../images/tabs/tab-notify.png')} />
         }
       </View>
     )
   }
 }
 
-export default connectAutoDispatch(state => ({badge: state.notify.badge}))(BadgeIcon)
+export default connectAutoDispatch(state => ({ badge: state.notify.badge }))(BadgeIcon)
 
 export class IconWithBadge extends React.Component {
-  render () {
+  render() {
     const { badgeCount, focused } = this.props;
     return (
       <View style={{ width: 24, height: 24, margin: 5 }}>
-        {/* <TabIcon source={focused ? require('images/tabs/tab-home-active.png') : require('images/tabs/tab-home.png')} /> */}
+        {/* <TabIcon source={focused ? require('../images/tabs/tab-home-active.png') : require('../images/tabs/tab-home.png')} /> */}
         {/* { badgeCount > 0 && (
           <View style={{
             // If you're using react-native < 0.57 overflow outside of the parent

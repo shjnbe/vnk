@@ -1,14 +1,14 @@
 import { AsyncStorage } from 'react-native'
 import { get, isArray } from 'lodash'
-import authApi from 'api/authApi'
+import authApi from '../../api/authApi'
 import { setCache, getCache } from 'utils/cache'
-import CACHE from 'utils/cache'
-import KEY from 'constants/cache-key'
+import CACHE from '../../utils/cache'
+import KEY from '../../constants/cache-key'
 import * as _ from 'lodash'
 import moment from 'moment'
 import { getNotifications } from './notifyAction'
 import { NavigationActions } from 'react-navigation'
-import notifyApi from 'api/notifyApi';
+import notifyApi from '../../api/notifyApi';
 import FCM from 'react-native-fcm'
 
 export const RECEIVED_USER_INFO = 'auth/user-info-success'

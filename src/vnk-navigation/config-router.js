@@ -89,8 +89,8 @@ export const AppTab = createBottomTabNavigator(
         tabHelper(
           navigation,
           'Trang chủ',
-          require('images/tabs/tab-home.png'),
-          require('images/tabs/tab-home-active.png')
+          require('../images/tabs/tab-home.png'),
+          require('../images/tabs/tab-home-active.png')
         )
     },
     company: {
@@ -99,8 +99,8 @@ export const AppTab = createBottomTabNavigator(
         tabHelper(
           navigation,
           'Công ty',
-          require('images/tabs/tab-person.png'),
-          require('images/tabs/tab-person-active.png')
+          require('../images/tabs/tab-person.png'),
+          require('../images/tabs/tab-person-active.png')
         )
     },
     project: {
@@ -109,8 +109,8 @@ export const AppTab = createBottomTabNavigator(
         tabHelper(
           navigation,
           'Dự án',
-          require('images/tabs/tab-project.png'),
-          require('images/tabs/tab-project-active.png')
+          require('../images/tabs/tab-project.png'),
+          require('../images/tabs/tab-project-active.png')
         )
     },
     notifications: {
@@ -126,8 +126,8 @@ export const AppTab = createBottomTabNavigator(
         tabHelper(
           navigation,
           'Cài đặt',
-          require('images/tabs/tab-settings.png'),
-          require('images/tabs/tab-settings-active.png')
+          require('../images/tabs/tab-settings.png'),
+          require('../images/tabs/tab-settings-active.png')
         )
     }
   },
