@@ -5,7 +5,7 @@ import styles from './styles'
 import { login, saveUserInfoLocal } from '@redux/actions/authAction'
 import { getNotifications } from '@redux/actions/notifyAction'
 import CACHE from 'utils/cache'
-import KEY from 'constants/cache-key'
+import KEY from '../../../constants/cache-key'
 import notifyDF from 'constants/notify-data'
 import fcmClient from 'utils/fcm-client'
 import {

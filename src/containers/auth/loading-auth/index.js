@@ -2,7 +2,7 @@ import React from 'react'
 import { Container } from 'native-base';
 import styled from 'styled-components/native'
 import colors from '../../../themes/colors';
-import KEY from 'constants/cache-key'
+import KEY from '../../../constants/cache-key'
 import CACHE from 'utils/cache'
 import authApi from 'api/authApi';
 import { login, saveUserInfoLocal, logoutInfo } from '@redux/actions/authAction'
