@@ -3,7 +3,7 @@
 import React from 'react'
 import { Item, Label, Form, Input, Content, Container, Button, Text, Toast } from 'native-base'
 import * as _ from 'lodash'
-import connectAutoDispatch from '@redux/connect';
+import connectAutoDispatch from '../../@redux/connect';
 import { onCompanyUpdate } from '@redux/actions/companyAction'
 
 class ContactNewContainer extends React.Component {

@@ -6,7 +6,7 @@ import { get, join, isArray, map, isEmpty, size, filter } from 'lodash'
 import rows from './field-company'
 import { CachedImage } from 'react-native-cached-image'
 import PickerDetailUser from './picker-detail-user';
-import connectAutoDispatch from '@redux/connect';
+import connectAutoDispatch from '../../@redux/connect';
 import { onCompanySelected, onChangeImage } from '@redux/actions/companyAction'
 import { getProjectId } from '@redux/actions/projectAction'
 import ImageCropPicker from 'react-native-image-crop-picker'

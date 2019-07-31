@@ -7,7 +7,7 @@ import { Container, Content, Icon, Item, Input, Label, View } from 'native-base'
 import HeaderView from './header'
 import ProjectFollow from './project-follow'
 import CompanyFollow from './company-follow'
-import connectAutoDispatch from '@redux/connect';
+import connectAutoDispatch from '../../@redux/connect';
 import { getCompanies } from '@redux/actions/companyAction'
 import { getFollowProjects, selectedProject } from '@redux/actions/projectAction'
 import HomeNoData from './home-no-data'

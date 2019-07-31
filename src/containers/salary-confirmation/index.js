@@ -11,7 +11,7 @@ import * as _ from 'lodash'
 import { NavigationEvents } from 'react-navigation'
 import styled from 'styled-components/native'
 import colors from '../../themes/colors'
-import connectAutoDispatch from '@redux/connect';
+import connectAutoDispatch from '../../@redux/connect';
 
 const ContentView = styled(Content).attrs({scrollEnabled: false})`
 borderTopColor: ${colors.pinkishGrey}

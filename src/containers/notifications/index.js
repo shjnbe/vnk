@@ -4,7 +4,7 @@ import styled from 'styled-components/native'
 import { Container, Content, Icon, Label, List, ListItem, Button } from 'native-base'
 import NavHeader from 'components/elements/nav-header'
 import NotifyRow from './notify-row'
-import connectAutoDispatch from '@redux/connect';
+import connectAutoDispatch from '../../@redux/connect';
 import * as _ from 'lodash'
 import { getProjectById } from '@redux/actions/projectAction'
 import { deleteNotify } from '@redux/actions/notifyAction.js'

@@ -10,7 +10,7 @@ import companyApi from 'api/companyApi'
 import * as _ from 'lodash'
 import ModalDialog from 'components/elements/modal-dialog'
 import { CachedImage } from 'react-native-cached-image'
-import connectAutoDispatch from '@redux/connect';
+import connectAutoDispatch from '../../@redux/connect';
 import {
   followCompany,
   unFollowCompany,

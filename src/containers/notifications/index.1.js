@@ -9,7 +9,7 @@ import RnLoading from './rn-loading';
 import messageDefault from 'constants/notify-data'
 import moment from 'moment'
 import CACHE from 'utils/cache'
-import connectAutoDispatch from '@redux/connect';
+import connectAutoDispatch from '../../@redux/connect';
 import * as _ from 'lodash'
 import { getProjectById } from '@redux/actions/projectAction'
 
