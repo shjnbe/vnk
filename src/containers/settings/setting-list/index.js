@@ -10,7 +10,7 @@ import { SettingGeneralView } from '../header-setting-view'
 import connectAutoDispatch from '../../../@redux/connect';
 import * as _ from 'lodash'
 import { POSITION } from 'constants/position-sale';
-import { logout } from '@redux/actions/authAction'
+import { logout } from '../../../@redux/actions/authAction'
 import ChangePassWordView from '../change-password'
 
 class SettingListContainer extends React.Component {

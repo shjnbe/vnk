@@ -9,7 +9,7 @@ import RnLoading from './rn-loading';
 import * as _ from 'lodash'
 import moment from 'moment'
 import connectAutoDispatch from '../../@redux/connect';
-import { getUserInclude } from '@redux/actions/authAction'
+import { getUserInclude } from '../../@redux/actions/authAction'
 
 const CommentView = styled.View`
   flexDirection: row
