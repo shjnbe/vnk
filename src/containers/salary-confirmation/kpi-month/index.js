@@ -13,7 +13,7 @@ import * as _ from 'lodash'
 import settingApi from '../../../api/settingApi';
 import moment from 'moment'
 import scores from 'constants/score-kpi'
-import { NavHeader } from 'components/elements/nav-header'
+import { NavHeader } from '../../../components/elements/nav-header'
 import EditKpiComponent from '../edit-kpi';
 import salaryApi from 'api/salaryApi';
 

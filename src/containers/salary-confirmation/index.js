@@ -1,7 +1,7 @@
 import React from 'react'
 import { FlatList } from 'react-native'
 import { Container, Content } from 'native-base'
-import NavHeader from 'components/elements/nav-header'
+import NavHeader from '../../components/elements/nav-header'
 import PickerMonth from './search-salary';
 import moment from 'moment'
 import salaryApi from 'api/salaryApi'

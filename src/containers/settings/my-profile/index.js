@@ -13,7 +13,7 @@ import { get, isEmpty, has } from 'lodash'
 import authApi from '../../../api/authApi';
 import { updateMyProfile } from '../../../@redux/actions/authAction'
 import NoteList from './note-list';
-import { POSITION } from 'constants/position-sale';
+import { POSITION } from '../../../constants/position-sale';
 const options = {
   width: 400,
   height: 400,

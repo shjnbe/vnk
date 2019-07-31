@@ -4,7 +4,7 @@ import styled from 'styled-components/native'
 import moment from 'moment'
 import colors from '../../themes/colors'
 import * as _ from 'lodash'
-import { SALES } from 'constants/position-sale'
+import { SALES } from '../../constants/position-sale'
 
 const TextView = styled(Text)`
   color: ${props => props.color || colors.greyishBrown} fontSize: 13

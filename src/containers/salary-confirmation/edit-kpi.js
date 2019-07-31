@@ -1,7 +1,7 @@
 import React from 'react'
 import { Modal } from 'react-native'
 import { Container, Content, Text, Item, Textarea, Input, Icon, Header, Left } from 'native-base'
-import { NavModalHeader } from 'components/elements/nav-header'
+import { NavModalHeader } from '../../components/elements/nav-header'
 import * as _ from 'lodash'
 
 export default class EditKpiComponent extends React.Component {

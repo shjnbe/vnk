@@ -12,7 +12,7 @@ import ResultKpi from '../kpi-person-today/result-kpi'
 import connectAutoDispatch from '../../../@redux/connect'
 import { get, isEmpty, has } from 'lodash'
 
-import { configKpiToday } from '@redux/actions/settingAction'
+import { configKpiToday } from '../../../@redux/actions/settingAction'
 import settingApi from '../../../api/settingApi';
 
 const Text = styled.Text``

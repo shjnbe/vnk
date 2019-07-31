@@ -8,11 +8,11 @@ import KpiSetupItem from './kpi-setup-item'
 import Divider from '../../../components/elements/divider'
 import colors from '../../../themes/colors'
 import connectAutoDispatch from '../../../@redux/connect'
-import { configKpiMonth } from '@redux/actions/settingAction'
+import { configKpiMonth } from '../../../@redux/actions/settingAction'
 import settingApi from '../../../api/settingApi';
 import DropdowButton from './dropdow-button';
-import MypPicker from 'components/elements/myp-picker'
-import saleTypes, { POSITION } from 'constants/position-sale'
+import MypPicker from '../../../components/elements/myp-picker'
+import saleTypes, { POSITION } from '../../../constants/position-sale'
 import authApi from '../../../api/authApi';
 
 const styleShadowInput = {

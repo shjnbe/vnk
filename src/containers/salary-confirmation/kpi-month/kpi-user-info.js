@@ -3,7 +3,7 @@ import styled from 'styled-components/native'
 import colors from '../../../themes/colors'
 // import moment from 'moment'
 import { Thumbnail } from 'native-base'
-import { SALES } from 'constants/position-sale'
+import { SALES } from '../../../constants/position-sale'
 import * as _ from 'lodash'
 
 const Wrapper = styled.View`

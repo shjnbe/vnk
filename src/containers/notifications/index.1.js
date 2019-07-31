@@ -2,7 +2,7 @@ import React from 'react'
 import { AsyncStorage, FlatList, Platform, StatusBar } from 'react-native'
 import styled from 'styled-components/native'
 import { Container, Content, Icon, Label, List } from 'native-base'
-import NavHeader from 'components/elements/nav-header'
+import NavHeader from '../../components/elements/nav-header'
 import NotifyRow from './notify-row'
 import DATA from './data'
 import RnLoading from './rn-loading';

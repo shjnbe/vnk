@@ -8,13 +8,13 @@ import PickerMonth from '../picker-month';
 import moment from 'moment'
 import PickerOptionSale from '../picker-option-sale';
 import staffTypes from 'constants/staff-type';
-import MypPicker from 'components/elements/myp-picker';
+import MypPicker from '../../../components/elements/myp-picker';
 import DropdowButton from './dropdow-button';
 import TaskInput from 'components/elements/task-input';
 import * as _ from 'lodash'
 import connectAutoDispatch from '../../../@redux/connect';
 import authApi from '../../../api/authApi';
-import { SALES, POSITION } from 'constants/position-sale';
+import { SALES, POSITION } from '../../../constants/position-sale';
 import taskApi from 'api/taskApi';
 import TaskRow from './task-item'
 import TaskModal from './add-new-task'

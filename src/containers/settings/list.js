@@ -4,7 +4,7 @@ import styled from 'styled-components/native'
 import HeaderView from './row-header'
 import RowItem from './row'
 import colors from '../../themes/colors'
-import NavHeader from 'components/elements/nav-header'
+import NavHeader from '../../components/elements/nav-header'
 
 const TopTitleView = styled.View`
   flexDirection: row
