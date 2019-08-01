@@ -1,7 +1,7 @@
 import React from 'react'
 import { Dimensions } from 'react-native'
 import styled from 'styled-components/native'
-import { Card, CardItem, Icon } from 'native-base'
+import { Card, CardItem, Icon, Body } from 'native-base'
 import { get } from 'lodash'
 import colors from '../../../themes/colors'
 import CircleButton from '../../../components/elements/circle-button'
@@ -24,9 +24,9 @@ const DateCView = styled.View` flexDirection: row marginRight: 4 marginTop: 6`
 const DateCView1 = styled.View` flexDirection: column  marginLeft: 6`
 
 class CardBase extends React.Component {
-  render () {
+  render() {
     return (
-      <Card style={[{ marginLeft: 6, width: this.props.size, flex: 1, height: (this.props.size * 3) / 2 || 154}]}>
+      <Card style={[{ marginLeft: 6, width: this.props.size, flex: 1, height: (this.props.size * 3) / 2 || 154 }]}>
         {this.props.children}
       </Card>
     )
@@ -45,11 +45,11 @@ export default class RowItemView extends React.Component {
     }
   }
 
-  render () {
+  render() {
     return (
       <Touchable onPress={this.props.onPress}>
         <CardBase size={this.props.size}>
-          <CardItem>
+          <Body>
             <DateCView1>
               <DateCView>
                 <Icon
@@ -65,8 +65,8 @@ export default class RowItemView extends React.Component {
               </DateCView>
               <ComText numberOfLines={1} ellipsizeMode={'tail'}>{this.props.name}</ComText>
             </DateCView1>
-          </CardItem>
-          <CardItem>
+          </Body>
+          <Body>
             <LocationView size={this.props.size}>
               <Icon
                 name='map-pin'
@@ -75,8 +75,8 @@ export default class RowItemView extends React.Component {
               />
               <Location numberOfLines={1} ellipsizeMode={'tail'}>{this.props.address}</Location>
             </LocationView>
-          </CardItem>
-          <CardItem
+          </Body>
+          <Body
             cardBody
             style={{
               position: 'absolute',
@@ -106,7 +106,7 @@ export default class RowItemView extends React.Component {
               bgColor={this.statusTask.color}
               style={{ position: 'absolute', bottom: 16, zIndex: 888 }}
             />
-          </CardItem>
+          </Body>
         </CardBase>
       </Touchable>
     )

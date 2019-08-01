@@ -40,7 +40,7 @@ class ProjectFollow extends React.Component {
     return (
       <FlatList 
         keyExtractor={({id}) => `${id}` }
-        style={{ paddingBottom: 16, height: this.props.size * 3 / 2, paddingLeft: 12, paddingRight: 12 }}
+        style={{ paddingBottom: 16, paddingLeft: 12, paddingRight: 12 }}
         horizontal={true}
         data={this.getData()}
         renderItem={({item, index}) => index === 0 ? 

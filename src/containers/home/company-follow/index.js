@@ -65,7 +65,7 @@ class CompanyFollow extends React.PureComponent {
       // </Swiper>
       <FlatList 
         keyExtractor={({id}) => `${id}` }
-        style={{ height: this.props.size * 3 / 2, paddingLeft: 12, paddingRight: 12 }}
+        style={{ paddingLeft: 12, paddingRight: 12 }}
         horizontal={true}
         data={this.getData()}
         renderItem={({item, index}) => index === 0 ? 
