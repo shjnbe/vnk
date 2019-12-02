@@ -70,7 +70,7 @@ export function postLogin(url, props) {
     url = 'user/login'
 
     instance.create({
-      baseURL: 'http://vnk.vn/api',
+      baseURL: 'http://vnk.vn/api/',
       timeout: 5000,
       validateStatus: function (status) {
         return (status >= 200 && status < 300) || status === 403 // default
