@@ -88,10 +88,11 @@ class LoginContainer extends React.Component {
   }
 
   handleLogin = async () => {
+    debugger;
     //CACHE.removeCache('SHOW_MSG_LOCAL')
     const { email = null, password = null, rememberMe, fcm } = this.state
     if (email && password) {
-      const user = await this.props.login(email, password, fcm.fcmToken)
+      const user = await this.props.login(email, password, (fcm||{}).fcmToken)
       if (_.get(user, 'accessDenied') === true) {
         this.props.navigation.navigate('AccessDenied')
       } else {
@@ -104,7 +105,7 @@ class LoginContainer extends React.Component {
               duration: 4000
             })
           } else {
-            this.props.saveUserInfoLocal(rememberMe ? { email, password, rememberMe, saveToken: fcm.fcmToken } : null, fcm, { ...user, password })
+            this.props.saveUserInfoLocal(rememberMe ? { email, password, rememberMe, saveToken: (fcm||{}).fcmToken } : null, fcm, { ...user, password })
             this.props.getNotifications(user)
             this.props.navigation.navigate('app')
           }

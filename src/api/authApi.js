@@ -3,10 +3,11 @@ import { has } from 'lodash'
 import moment from 'moment'
 export default {
   login: (email, password, access_token) => {
+    debugger;
     console.log('login ------------- ', `user/login?access_token=${access_token}`, email, password)
     if (access_token)
       return postLogin(`user/login?access_token=${access_token}`, { email, password, access_token })
-    return postLogin('user/login', {"username": email, "password": password })
+    return postLogin('user/login', { email, password })
   },
   getFullName: (id, access_token) => {
     return getFetch(`user/findOne`, { 
